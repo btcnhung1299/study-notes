@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "43ec28e73f57571e",
+    "type": "split",
+    "children": [
+      {
+        "id": "d511c27e2484201f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "NLP/Transformer.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4fb4112ae350ed70",
+    "type": "split",
+    "children": [
+      {
+        "id": "37aa03a1a4c7f4a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b42a6759166cbc65",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "79e36caab439c431",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c454b18eda3379d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c008c47032b5490",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7823928487e0a2c5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "NLP/Transformer.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d511c27e2484201f",
+  "lastOpenFiles": [
+    "NLP/Transformer.md",
+    "NLP/ELMo.md",
+    "NLP/Attention.md",
+    "Generic DL/Residual.md",
+    "Generic DL/Momentum.md",
+    "Generic DL/Dropout.md",
+    "Generic DL/Adam.md",
+    "Generic DL/Optimization Algorithms.md",
+    "Application/Application for Research Assistant, Collaborative Machine Learning.md",
+    "Application/Introduction.md"
+  ]
+}

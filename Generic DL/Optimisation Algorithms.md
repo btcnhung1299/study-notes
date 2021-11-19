@@ -1,3 +1,9 @@
+1. Categories of optimisation algorithms
+- Gradient-based optimisation
+	- [[Gradient Descent]]
+	- [[Adam]]
+
+
 *Q: Best practice to use (first-order) optimizers?*
 - SGD: differentiable objective functions (gradient can be computed for any given point in the input space)
 - For stochastic objective functions ("almost surely nowhere differentiable" [1]), use:

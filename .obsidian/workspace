@@ -4,15 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "d511c27e2484201f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "NLP/Transformer.md",
-            "mode": "preview"
+        "id": "1eb1e1296df9b4e6",
+        "type": "split",
+        "children": [
+          {
+            "id": "d511c27e2484201f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Generic DL/Optimisation/Adam.md",
+                "mode": "source"
+              }
+            }
+          },
+          {
+            "id": "5259d43edb4e39a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Generic DL/Optimisation/Adam.md",
+                "mode": "preview"
+              }
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -68,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NLP/Transformer.md",
+                "file": "Generic DL/Optimisation/Adam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +106,15 @@
   },
   "active": "d511c27e2484201f",
   "lastOpenFiles": [
+    "Generic DL/Optimisation/Adam.md",
+    "Generic DL/Optimisation/Momentum.md",
+    "Generic DL/Optimisation/Gradient Descent.md",
+    "Generic DL/Optimisation Algorithms.md",
+    "Generic DL/Optimisation.md",
     "NLP/Transformer.md",
     "NLP/ELMo.md",
     "NLP/Attention.md",
     "Generic DL/Residual.md",
-    "Generic DL/Momentum.md",
-    "Generic DL/Dropout.md",
-    "Generic DL/Adam.md",
-    "Generic DL/Optimization Algorithms.md",
-    "Application/Application for Research Assistant, Collaborative Machine Learning.md",
-    "Application/Introduction.md"
+    "Generic DL/Dropout.md"
   ]
 }

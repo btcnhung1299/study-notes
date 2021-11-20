@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Generic DL/Optimisation/Adam.md",
+                "file": "NLP/Attention.md",
                 "mode": "source"
               }
             }
@@ -24,7 +24,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Generic DL/Optimisation/Adam.md",
+                "file": "NLP/Attention.md",
                 "mode": "preview"
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Generic DL/Optimisation/Adam.md",
+                "file": "NLP/Attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,17 +104,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d511c27e2484201f",
+  "active": "5259d43edb4e39a7",
   "lastOpenFiles": [
+    "NLP/Attention.md",
+    "NLP/Transformer.md",
+    "NLP/ELMo.md",
     "Generic DL/Optimisation/Adam.md",
     "Generic DL/Optimisation/Momentum.md",
     "Generic DL/Optimisation/Gradient Descent.md",
     "Generic DL/Optimisation Algorithms.md",
-    "Generic DL/Optimisation.md",
-    "NLP/Transformer.md",
-    "NLP/ELMo.md",
-    "NLP/Attention.md",
     "Generic DL/Residual.md",
+    "Generic DL/Optimisation.md",
     "Generic DL/Dropout.md"
   ]
 }

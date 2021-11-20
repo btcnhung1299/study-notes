@@ -1,3 +1,5 @@
+**Ada**ptive **M**oment Estimation
+
 - Subject: stochastic (or "noisy") objective function
 	<details>Stochasticity might come from data subsampling (minibatches of data samples), dropout regularisation, etc.</details>
 

@@ -13,14 +13,17 @@
 - Description: The probability of the event $Y=y$ given $X=x$ occured
 - E.g., the probability that a drawn card is not greater than 10, given it is a red card $p(\leq 10 \mid \text{red}) = \frac{2 * 10}{52 * \frac{2}{4}}$
 
-*Relations between marginal, joint, and conditional probabilities*:
-$$P(A|B)*P(B) = P(A,B)$$
-
-**Bayesian theorem**:
-$$P(A|B)*P(B) = P(B|A)*P(A)$$
+**Chain Rule**:
+$$P(A,B) = P(A|B)*P(B)$$
 
 ---
 
-*Q: Marginal probability and joint probability?*
-A: Marginal probability can be computed from joint probability
-$$P(X=x) = \int_y P(X=x, Y=y)$$
+*Q: Relation between the three?*
+A: Marginal probability can be computed from joint probability, which is in turn can be computed with conditional probabilities.
+$$
+\begin{align}
+P(X=x) = \int_y P(X=x, Y=y) 
+&= \int_{-\infty}^{\infty} P(X=x, Y=y)dy \\
+&= \int_{-\infty}^{\infty} P(X=x|Y=y)P(Y=y)dy
+\end{align}
+$$

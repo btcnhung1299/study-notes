@@ -1,36 +1,18 @@
 {
   "main": {
-    "id": "43ec28e73f57571e",
+    "id": "9c09697d5fae44ae",
     "type": "split",
     "children": [
       {
-        "id": "1eb1e1296df9b4e6",
-        "type": "split",
-        "children": [
-          {
-            "id": "d511c27e2484201f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLP/Attention.md",
-                "mode": "source"
-              }
-            }
-          },
-          {
-            "id": "5259d43edb4e39a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLP/Attention.md",
-                "mode": "preview"
-              }
-            }
+        "id": "7a33d974693fa4f4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Statistical ML/Hidden Markov Model.md",
+            "mode": "source"
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -86,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NLP/Attention.md",
+                "file": "Statistical ML/Hidden Markov Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5259d43edb4e39a7",
+  "active": "7a33d974693fa4f4",
   "lastOpenFiles": [
-    "NLP/Attention.md",
-    "NLP/Transformer.md",
-    "NLP/ELMo.md",
-    "Generic DL/Optimisation/Adam.md",
-    "Generic DL/Optimisation/Momentum.md",
-    "Generic DL/Optimisation/Gradient Descent.md",
+    "Statistical ML/Hidden Markov Model.md",
+    "Statistics & Probabilities/Beta distribution.md",
+    "Generic DL/Bayesian Optimisation.md",
+    "Statistics & Probabilities/Conjugacy.md",
+    "Statistics & Probabilities/Bayes' theorem.md",
+    "Statistics & Probabilities/Marginal, Joint, and Conditional Probabilities.md",
     "Generic DL/Optimisation Algorithms.md",
-    "Generic DL/Residual.md",
-    "Generic DL/Optimisation.md",
-    "Generic DL/Dropout.md"
+    "Algebra/Singular matrix.md",
+    "Algebra/Positive matrix.md",
+    "Algebra/Eigenvalues.md"
   ]
 }

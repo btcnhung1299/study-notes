@@ -1,0 +1,1 @@
+**Definition**: A matrix is singular iff its [[Determinant]] is 0

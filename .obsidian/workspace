@@ -6,11 +6,24 @@
       {
         "id": "7a33d974693fa4f4",
         "type": "leaf",
+        "dimension": 52.12585034013606,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Statistical ML/Hidden Markov Model.md",
+            "file": "Reinforcement Learning/Direct Utility Estimation.md",
             "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "a179261208b7f919",
+        "type": "leaf",
+        "dimension": 47.874149659863946,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Reinforcement Learning/Direct Utility Estimation.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical ML/Hidden Markov Model.md",
+                "file": "Reinforcement Learning/Direct Utility Estimation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +101,15 @@
   },
   "active": "7a33d974693fa4f4",
   "lastOpenFiles": [
-    "Statistical ML/Hidden Markov Model.md",
+    "Reinforcement Learning/Direct Utility Estimation.md",
+    "Reinforcement Learning/Bellman equation.md",
+    "Reinforcement Learning/Optimal policy.md",
+    "Reinforcement Learning/Discount factor.md",
+    "Reinforcement Learning/Utility.md",
+    "Statistics & Probabilities/Markov Decision Process.md",
+    "Statistics & Probabilities/Markov property.md",
+    "Statistics & Probabilities/Markov assumption.md",
     "Statistics & Probabilities/Beta distribution.md",
-    "Generic DL/Bayesian Optimisation.md",
-    "Statistics & Probabilities/Conjugacy.md",
-    "Statistics & Probabilities/Bayes' theorem.md",
-    "Statistics & Probabilities/Marginal, Joint, and Conditional Probabilities.md",
-    "Generic DL/Optimisation Algorithms.md",
-    "Algebra/Singular matrix.md",
-    "Algebra/Positive matrix.md",
-    "Algebra/Eigenvalues.md"
+    "Statistics & Probabilities/Markov Chain.md"
   ]
 }

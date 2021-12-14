@@ -1,5 +1,13 @@
-**Description**: The conditional probability *distribution* of future states only depend on the present state (memoryless property of stochastic process).
+**Description**: When the Markov assumption is made, we imply that the future $s_{t+1}$ is modeled independently from the past $s_{1, \dots, s-1}$ given the present $s_t$. In other words, $s_{t+1}$ and $s_{1, \dots, s_1}$ are conditional independent given $s_t$ (see [[Marginal, Joint, and Conditional Probabilities]]).
 
-**Extended description**: The present state might or might not include a part of the history, depending on the **order** of the Markov model. For example,
-- First-order Markov model (depend only on the current state): $P(s_t|s_{t-1})$
-- Second-order Markov model (depend on the current state and 1 preceding state): $P(s_t|s_{t-1}, s_{t-2}$)
+Notation: $(s_{t+1} \perp s_{1, 2, \dots, t-1}) \mid s_t$ [0]
+
+**Extended version**: The *order* of the assumption denotes the number of past states the future is dependent on.
+- First-order Markov assumption: depend on 0 past state, or only depend on current state
+- N-order Markov assumption: depend on $N-1$ past states
+
+Markov assumption is hold in [[Markov Chain]].
+
+---
+*References*:
+[0] Murphy, Machine Learning: A Probabilistic Perspective

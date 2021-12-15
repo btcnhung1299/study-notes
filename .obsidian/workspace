@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reinforcement Learning/Direct Utility Estimation.md",
-            "mode": "source"
+            "file": "Reinforcement Learning/Bellman equation.md",
+            "mode": "preview"
           }
         }
       },
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reinforcement Learning/Direct Utility Estimation.md",
+            "file": "Reinforcement Learning/(Passive) Adaptive dynamic programming (ADP).md",
             "mode": "preview"
           }
         }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reinforcement Learning/Direct Utility Estimation.md",
+                "file": "Reinforcement Learning/Bellman equation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "7a33d974693fa4f4",
   "lastOpenFiles": [
-    "Reinforcement Learning/Direct Utility Estimation.md",
     "Reinforcement Learning/Bellman equation.md",
     "Reinforcement Learning/Optimal policy.md",
+    "Reinforcement Learning/(Passive) Adaptive dynamic programming (ADP).md",
+    "Reinforcement Learning/Direct Utility Estimation.md",
     "Reinforcement Learning/Discount factor.md",
     "Reinforcement Learning/Utility.md",
     "Statistics & Probabilities/Markov Decision Process.md",
     "Statistics & Probabilities/Markov property.md",
     "Statistics & Probabilities/Markov assumption.md",
-    "Statistics & Probabilities/Beta distribution.md",
-    "Statistics & Probabilities/Markov Chain.md"
+    "Statistics & Probabilities/Beta distribution.md"
   ]
 }

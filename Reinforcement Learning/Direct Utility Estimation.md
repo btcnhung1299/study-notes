@@ -3,4 +3,4 @@
 **Formulation**: Direct utility estimation can be viewed as a supervised problem where input is the state and [[Utility]] as output.
 
 **Disadvantage**:
-- Violate the nature of states, or [[Bellman equation]]: states are not independent from each other
+- Violate the nature of states, or [[Bellman equation]]: states are not independent from each other -> slow converge

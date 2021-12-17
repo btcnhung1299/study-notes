@@ -6,26 +6,44 @@
       {
         "id": "7a33d974693fa4f4",
         "type": "leaf",
-        "dimension": 52.12585034013606,
+        "dimension": 50.255102040816325,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reinforcement Learning/Bellman equation.md",
+            "file": "Reinforcement Learning/Q-learning.md",
             "mode": "preview"
           }
         }
       },
       {
-        "id": "a179261208b7f919",
-        "type": "leaf",
-        "dimension": 47.874149659863946,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Reinforcement Learning/(Passive) Adaptive dynamic programming (ADP).md",
-            "mode": "preview"
+        "id": "9edcdebb6f14044d",
+        "type": "split",
+        "dimension": 49.744897959183675,
+        "children": [
+          {
+            "id": "c7942b907b761cc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reinforcement Learning/Utility.md",
+                "mode": "preview"
+              }
+            }
+          },
+          {
+            "id": "708f258a86b678a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reinforcement Learning/Q-function.md",
+                "mode": "preview"
+              }
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -65,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 236
   },
   "right": {
     "id": "c454b18eda3379d4",
@@ -81,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reinforcement Learning/Bellman equation.md",
+                "file": "Reinforcement Learning/Q-function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +117,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7a33d974693fa4f4",
+  "active": "708f258a86b678a3",
   "lastOpenFiles": [
-    "Reinforcement Learning/Bellman equation.md",
-    "Reinforcement Learning/Optimal policy.md",
-    "Reinforcement Learning/(Passive) Adaptive dynamic programming (ADP).md",
-    "Reinforcement Learning/Direct Utility Estimation.md",
-    "Reinforcement Learning/Discount factor.md",
+    "Reinforcement Learning/Q-function.md",
+    "Reinforcement Learning/Q-learning.md",
     "Reinforcement Learning/Utility.md",
-    "Statistics & Probabilities/Markov Decision Process.md",
-    "Statistics & Probabilities/Markov property.md",
-    "Statistics & Probabilities/Markov assumption.md",
-    "Statistics & Probabilities/Beta distribution.md"
+    "Reinforcement Learning/Policy.md",
+    "Reinforcement Learning/State.md",
+    "Reinforcement Learning/Reward, Return.md",
+    "Reinforcement Learning/Temporal-difference (TD).md",
+    "Reinforcement Learning/Discount factor.md",
+    "Reinforcement Learning/Adaptive Dynamic Programming (ADP).md",
+    "Reinforcement Learning/Direct Utility Estimation.md"
   ]
 }

@@ -1,5 +1,6 @@
-**Purpose**: 
+**Purpose**: Measure the *value* of a state -> judge how good a policy $\pi$ is.
+*In other words*, utility acts as a **value function**.
 
-**Definition**: The utility is defined to be the expected sum of discounted rewards if policy $\pi$ is followed from state $s$ onwards, or expected **reward-to-go**.
-$$U^{\pi}(s) = \mathbb{E} \left[ \sum_{t=0}^{\infty} \gamma^{t} R(S_t) \right]$$
-where $R$ is the reward function, $S_t$ is the state at timestep $t$ when executing policy $\pi$ ($S_0 = s$), and $0 < \gamma < 1$ is a [[Discount factor]].
+**Formulation**: The utility is defined to be the expected return, or reward-to-go (see [[Reward, Return]]), from state $s$ onwards and **always follow the policy $\pi$**:
+$$U^{\pi}(s) = \mathbb{E}_{\tau \sim \pi} \left[ R(\tau) \mid s_0 = s \right]$$
+where $R(\tau)$ is return over trajectory $\tau = (s_0, a_0, s_1, a_1, \dots)$.

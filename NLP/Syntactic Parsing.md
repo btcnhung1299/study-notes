@@ -6,7 +6,7 @@
 	- *Terminal*: leaf
 - Different types of syntax tree: constitutency-based, dependency-based, etc.
 
-**Context-Free Grammar**: production rules can be applied in any context
+**Context-Free Grammar**: apply pre-defined rules to parse constitutes without considering the actual context of a sentence
 - Use syntax tree to represent the constitutes
 	![250](./resources/Constituency-basedParseTree.png)
 - 

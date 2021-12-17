@@ -1,3 +1,8 @@
-**Purpose**: Immediate rewards are more preferable than future rewards
+**Purpose**: Demonstrate that immediate reward is more preferable than future reward
 
-**Formulation**: Use $\gamma^t$ as a weighting factor in [[Utility]] where $0 < \gamma < 1$ to surpress the rewards in far timestep $t$.
+**Application**: Typically included in **infinite-horizon** [[return]]:
+$$\sum_{t=0}^{\infty} \gamma^t r_t \tag{1}$$
+where $r_t = R(s_t, a_t)$ is a reward.
+
+**Mathmatical property**:
+- Force equation (1) to be converged to a finite value.

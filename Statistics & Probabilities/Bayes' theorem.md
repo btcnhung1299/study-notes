@@ -1,3 +1,6 @@
-**Bayes' theorem**:
-$$P(A|B)*P(B) = P(A,B) = P(B,A) = P(B|A)*P(A)$$
-thanks to chain-rule (see [[Marginal, Joint, and Conditional Probabilities]])
+**Proof**: Use Chain Rule (in [[Marginal, Joint, and Conditional Probabilities]]), we got
+$$\begin{align}
+P(A, B) &= P(B, A) \\
+\Leftrightarrow P(A \mid B)*P(B) &= P(B \mid A) * P(A) \end{align}$$
+or more popular:
+$$P(A) = \frac{P(B \mid A) * P(A)}{P(B)}$$

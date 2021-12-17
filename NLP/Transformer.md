@@ -3,9 +3,9 @@
 **Model architecture**:
 ![300](./resources/AttentionIsAllYouNeed-Figure1.png)
 
-*Note*:
-- Signals are combined from the encoder **and** masked attention values from the output. Intuitvely, it allows us to make prediction based on information from the input and the output up to this point.
-- [[Residual]] connections are applied around each layer before normalized
+*Observations*:
+- In decoding, we will combine hidden state from the encoder **and** masked attention values from the output. Intuitvely, it allows us to make prediction based on the latent input representation as well as our preditions for the previous tokens.
+- [[Residual]] connections are applied around each layer before normalized.
 
 **Novel blocks**:
 1. Multi-Head Attention:

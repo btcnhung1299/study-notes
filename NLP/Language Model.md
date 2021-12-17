@@ -15,7 +15,7 @@ P(w_1, ..., w_n) = \prod_{i=1}^n P(w_i \mid w_1, ..., w_{i-1}) \tag{1}
 2. 
 
 
-- Improved method: utilise [[Markov assumption]] to model the probability including the next word based on the current word *or sequence of words*
+- Improved method: make [[Markov assumption]] to model the probability including the next word based on the current word *or sequence of words*
 	$$P(w_1, ..., w_m) = \prod_{i}^m P(w_i \mid w_{i-1})$$
 
 1. **N-gram Language Model** (different order of Markov model):

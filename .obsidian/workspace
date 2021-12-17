@@ -4,46 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7a33d974693fa4f4",
+        "id": "01908f6d0091f3bc",
         "type": "leaf",
-        "dimension": 50.255102040816325,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Reinforcement Learning/Q-learning.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
-      },
-      {
-        "id": "9edcdebb6f14044d",
-        "type": "split",
-        "dimension": 49.744897959183675,
-        "children": [
-          {
-            "id": "c7942b907b761cc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reinforcement Learning/Utility.md",
-                "mode": "preview"
-              }
-            }
-          },
-          {
-            "id": "708f258a86b678a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reinforcement Learning/Q-function.md",
-                "mode": "preview"
-              }
-            }
-          }
-        ],
-        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -99,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reinforcement Learning/Q-function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "708f258a86b678a3",
+  "active": "01908f6d0091f3bc",
   "lastOpenFiles": [
-    "Reinforcement Learning/Q-function.md",
-    "Reinforcement Learning/Q-learning.md",
+    "Reinforcement Learning/Bellman equation.md",
     "Reinforcement Learning/Utility.md",
-    "Reinforcement Learning/Policy.md",
+    "Statistics & Probabilities/Markov Decision Process.md",
+    "Reinforcement Learning/Reward.md",
+    "Reinforcement Learning/Q-function.md",
+    "Reinforcement Learning/Advantage Function.md",
+    "Abstract Algebra/Ring.md",
+    "Abstract Algebra/Abelian group.md",
     "Reinforcement Learning/State.md",
-    "Reinforcement Learning/Reward, Return.md",
-    "Reinforcement Learning/Temporal-difference (TD).md",
-    "Reinforcement Learning/Discount factor.md",
-    "Reinforcement Learning/Adaptive Dynamic Programming (ADP).md",
-    "Reinforcement Learning/Direct Utility Estimation.md"
+    "Reinforcement Learning/Temporal-Difference (TD).md"
   ]
 }

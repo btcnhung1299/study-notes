@@ -5,7 +5,7 @@ $$r_t = R(s_t, a_t, s_{t+1}) = R(s_t, a_t) = R(s_t)$$
 where $R$ is a reward function of the enviroment.
 
 
-**Return**: is cumulative rewards, or a function over a trajectory $\tau = (s_0, a_0, s_1, a_1, \dots)$
+**Return**: is cumulative rewards, or a function over a [[Trajectory (Episode)]] $\tau$
 
 - Finite-horizon undiscounted return:
 $$R(\tau) = \sum_{t=0}^{T} r_t$$

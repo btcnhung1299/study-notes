@@ -1,14 +1,28 @@
 {
   "main": {
-    "id": "9c09697d5fae44ae",
+    "id": "0343847b6a415453",
     "type": "split",
     "children": [
       {
-        "id": "01908f6d0091f3bc",
+        "id": "aab82e409796483e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Reinforcement Learning/Reward.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "d0d7350ba7180883",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Reinforcement Learning/Reinforcement Learning - Introduction.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -65,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Reinforcement Learning/Reinforcement Learning - Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "01908f6d0091f3bc",
+  "active": "d0d7350ba7180883",
   "lastOpenFiles": [
+    "Reinforcement Learning/Reinforcement Learning - Introduction.md",
+    "Untitled.md",
+    "Reinforcement Learning/Multi-agent.md",
+    "Reinforcement Learning/Imitation Learning.md",
+    "Reinforcement Learning/Batch Reinforcement Learning.md",
+    "Reinforcement Learning/Bayesian Reinforcement Learning.md",
     "Reinforcement Learning/Bellman equation.md",
-    "Reinforcement Learning/Utility.md",
-    "Statistics & Probabilities/Markov Decision Process.md",
-    "Reinforcement Learning/Reward.md",
-    "Reinforcement Learning/Q-function.md",
-    "Reinforcement Learning/Advantage Function.md",
-    "Abstract Algebra/Ring.md",
-    "Abstract Algebra/Abelian group.md",
-    "Reinforcement Learning/State.md",
-    "Reinforcement Learning/Temporal-Difference (TD).md"
+    "Reinforcement Learning/Discount factor.md",
+    "Reinforcement Learning/Extrapolation error.md",
+    "Reinforcement Learning/Trajectory (Episode).md"
   ]
 }

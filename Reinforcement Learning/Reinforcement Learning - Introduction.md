@@ -6,3 +6,7 @@
 - [[Direct Utility Estimation]]
 - [[Temporal-Difference (TD)]]
 - [[Q-learning]]
+
+**Experiments**:
+- Environements: https://gym.openai.com/envs/
+- Results: plot charts of *return vs. timestep*

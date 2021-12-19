@@ -26,6 +26,6 @@ For a newly-reached state $s^{\prime}$ which is the result of the action $a$ per
 **Disadvantage**:
 - Intracable for large state spaces: as they need to learn transition probability given all state combinations
 
----
-*References*:
+
+#### References:
 [0] Artificial Intelligence: A Modern Approach

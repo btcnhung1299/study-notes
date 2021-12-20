@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reinforcement Learning/Reward.md",
-            "mode": "preview"
+            "file": "Generic DL/LSTM.md",
+            "mode": "source"
           }
         }
       },
@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reinforcement Learning/Reinforcement Learning - Introduction.md",
+            "file": "Generic DL/LSTM.md",
             "mode": "preview"
           }
         }
@@ -63,7 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236
+    "width": 308
   },
   "right": {
     "id": "c454b18eda3379d4",
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reinforcement Learning/Reinforcement Learning - Introduction.md",
+                "file": "Generic DL/LSTM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d0d7350ba7180883",
+  "active": "aab82e409796483e",
   "lastOpenFiles": [
+    "Generic DL/LSTM.md",
+    "Reinforcement Learning/Reward.md",
+    "Statistics & Probabilities/Markov Decision Process.md",
     "Reinforcement Learning/Reinforcement Learning - Introduction.md",
     "Untitled.md",
     "Reinforcement Learning/Multi-agent.md",
     "Reinforcement Learning/Imitation Learning.md",
     "Reinforcement Learning/Batch Reinforcement Learning.md",
     "Reinforcement Learning/Bayesian Reinforcement Learning.md",
-    "Reinforcement Learning/Bellman equation.md",
-    "Reinforcement Learning/Discount factor.md",
-    "Reinforcement Learning/Extrapolation error.md",
-    "Reinforcement Learning/Trajectory (Episode).md"
+    "Reinforcement Learning/Bellman equation.md"
   ]
 }

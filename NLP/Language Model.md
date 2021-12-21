@@ -23,7 +23,7 @@ P(w_1, ..., w_n) = \prod_{i=1}^n P(w_i \mid w_1, ..., w_{i-1}) \tag{1}
 	where $n << m$
 	
 2. **P(w)**: smoothing techniques
-- [[Maximum Likelihood Estimate]]: $P(w_i) = \frac{\text{count}(w_i)}{N}$ where $N$ is corpus size
+- [[Maximum Likelihood Estimate (MLE)]]: $P(w_i) = \frac{\text{count}(w_i)}{N}$ where $N$ is corpus size
 - Laplacian/Add-one: $P(w_i) = \frac{\text{count}(w_i) + 1}{N + V}$ where $V$ is vocabulary size
 
 3. (Linear) **Interpolation**/Mixture: weight contribution of each $k$-gram model ($k \leq n$) => new another probability distribution. E.g., combine prediction of unigram, bigram, and trigram for a third-order LM.

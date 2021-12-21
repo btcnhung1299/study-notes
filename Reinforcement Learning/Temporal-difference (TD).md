@@ -4,7 +4,7 @@
 $$U^{\pi}(s) \leftarrow U^{\pi}(s) + \alpha \left[ R(s) + \gamma U^{\pi}(s^{\prime}) - U^{\pi}(s)\right]$$
 where $\alpha$ is learning rate.
 
-*Note*: Another way to do TD is [[Q-learning]].
+*Note*: Another way to do TD is [[Q-Learning]].
 
 ---
 #### FAQ

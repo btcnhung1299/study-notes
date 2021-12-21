@@ -9,21 +9,39 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Generic DL/LSTM.md",
-            "mode": "source"
+            "file": "Reinforcement Learning/Reinforcement Learning - Introduction.md",
+            "mode": "preview"
           }
         }
       },
       {
-        "id": "d0d7350ba7180883",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Generic DL/LSTM.md",
-            "mode": "preview"
+        "id": "4dbf3b59adab929c",
+        "type": "split",
+        "children": [
+          {
+            "id": "d0d7350ba7180883",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reinforcement Learning/Bayesian Reinforcement Learning.md",
+                "mode": "preview"
+              }
+            }
+          },
+          {
+            "id": "33894e5d8ba02f75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics & Probabilities/Markov Decision Process.md",
+                "mode": "preview"
+              }
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -79,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Generic DL/LSTM.md",
+                "file": "Statistics & Probabilities/Markov Decision Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +115,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "aab82e409796483e",
+  "active": "33894e5d8ba02f75",
   "lastOpenFiles": [
-    "Generic DL/LSTM.md",
-    "Reinforcement Learning/Reward.md",
     "Statistics & Probabilities/Markov Decision Process.md",
+    "Reinforcement Learning/Key Concepts/Reward.md",
     "Reinforcement Learning/Reinforcement Learning - Introduction.md",
-    "Untitled.md",
-    "Reinforcement Learning/Multi-agent.md",
-    "Reinforcement Learning/Imitation Learning.md",
-    "Reinforcement Learning/Batch Reinforcement Learning.md",
-    "Reinforcement Learning/Bayesian Reinforcement Learning.md",
-    "Reinforcement Learning/Bellman equation.md"
+    "Reinforcement Learning/Key Concepts/Episode (Trajectory).md",
+    "Reinforcement Learning/Key Concepts/Value Function (Utility).md",
+    "Reinforcement Learning/Key Concepts/Policy.md",
+    "Reinforcement Learning/Key Concepts/State.md",
+    "Reinforcement Learning/Q-Learning.md",
+    "Reinforcement Learning/Extrapolation Error.md",
+    "Reinforcement Learning/Imitation Learning.md"
   ]
 }

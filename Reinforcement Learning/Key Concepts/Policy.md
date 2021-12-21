@@ -10,7 +10,7 @@ is typically replaced by **stochastic policy representation**, e.g. applying sof
 $$\pi_{\theta}(s) = \text{softmax}\left[ \hat{Q}_{\theta}(s,a) \right]$$
 
 **Optimal policy**:
-The optimal policy is the policy that gives maximum [[Utility]] *starting from the initial state*. That is, given a state $s$, it picks the best action $a$ such that the expected utility:
+The optimal policy is the policy that gives maximum [[Value Function (Utility)]] *starting from the initial state*. That is, given a state $s$, it picks the best action $a$ such that the expected utility:
 $$\begin{align}
 \pi^{*}(s) &= \arg \max_{\pi} U^{\pi} \\
 &= \arg \max_{a} \sum_{s^{\prime}} P(s^{\prime} \mid s, a) U(s^{\prime})

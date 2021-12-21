@@ -1,4 +1,4 @@
-**Definition**: Value (e.g. [[utility]], [[Q-function]] value) of the state $s$ is the sum of its immediate reward $R(s)$ and the expected value of its successor states.
+**Definition**: Value (e.g. [[Value Function (Utility)]], [[Action-value Function (Q-Function)]] value) of the state $s$ is the sum of its immediate reward $R(s)$ and the expected value of its successor states.
 - Utility:
 $$U^{\pi}(s) = R(s) + \gamma \mathbb{E}_{s^{\prime} \sim P(\cdot \mid s,a)} \left[ U^{\pi}(s^{\prime}) \right]$$
 The optimal ultility satisfies:

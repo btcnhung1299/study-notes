@@ -1,23 +1,24 @@
-**Policy**: a function mapping [[state]] (or more accurately, observation) to action, or decide the next action based on the current state.
-*Note*: In Deep RL, we typically model the policy by a neural network with parameters $\theta$ whose input has *the dimension of observation* and *output has the dimension of action*.
+#### Description
 
-**Policy representation**:
-*Best practice*: Policy representation, parameterised by $\theta$, shouldn't discontinuous function (recommended to be continuous) because it will exist $\theta$ that causes the policy switch from one action to another [0]
+Policy is a function mapping an observation (typically and misleadingly referred as state) to an action or the probability of an action. Intuitively, it denotes which or how likely an action $a$ should be taken given a current state $s$.
 
-For example, a discontinuous policy given by
-$$\pi(s) = \max_{a} \hat{Q}_{\theta}(s,a)$$
-is typically replaced by **stochastic policy representation**, e.g. applying softmax function: 
-$$\pi_{\theta}(s) = \text{softmax}\left[ \hat{Q}_{\theta}(s,a) \right]$$
+#### Policy representation
+- Deterministic: $\pi(s) = a$
+- Stochastic: $\pi(a \mid s) = \Pr_{\pi}[A=a, S=s]$
 
-**Optimal policy**:
-The optimal policy is the policy that gives maximum [[Value Function (Utility)]] *starting from the initial state*. That is, given a state $s$, it picks the best action $a$ such that the expected utility:
+> In Deep RL, we model the policy by a neural network with parameters $\theta$ whose input has *the dimension of observation* and *output has the dimension of action*. The parameterized policy is denoted as $\pi_{\theta}(a \mid s)$.
+
+#### Optimal Policy
+The optimal policy is the policy that gives maximum [[value function]].
+
+It is proven that starting from the initial state, we can obtain optimal policy by greedily following (optimal) action $a$ such that the expected return over all courses of states reached from $s$ via $a$ is maximized.
 $$\begin{align}
-\pi^{*}(s) &= \arg \max_{\pi} U^{\pi} \\
-&= \arg \max_{a} \sum_{s^{\prime}} P(s^{\prime} \mid s, a) U(s^{\prime})
+\pi^{*}(s) &= \arg \max_{\pi} V^{\pi}(s) \\
+&= \arg \max_{a} \sum_{s^{\prime}} P(s^{\prime} \mid s, a) V(s^{\prime})
 \end{align}
 $$
 
-
 ---
-*References*:
-[0] Artificial Intelligence: A Modern Approach
+#### FAQ
+1. Q: How do we interpret an equation with and without policy (e.g. [[Bellman equation]] for state-value with policy $V_{\pi}$ and without policy $V$?
+	A: In equation without policy, we consider all actions demonstrated from the dataset; whereas in equation with policy, we consider actions **according to the specified policy $\pi$**.

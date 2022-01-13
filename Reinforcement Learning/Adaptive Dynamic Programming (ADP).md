@@ -1,4 +1,4 @@
-**Purpose**: Learn the [[Value Function (Utility)]] $U$
+**Purpose**: Learn the [[state-value function, or utility]] $U$
 
 **Idea**: Keep track of running statistics of transition probability and use algorithms (e.g. Policy Evaluation) to solve [[Bellman equation]] with the observations.
 *In other words*, we want to maximize the likelihood given observed transition probability and rewards.
@@ -6,7 +6,7 @@
 **Materials**:
 - Input: (current state $s^{\prime}$, corresponding reward $r^{\prime}$)
 - Output: next state
-- Updatable global variables: [[Value Function (Utility)]] $U$, transition probability $P$, and rewards $R$
+- Updatable global variables: [[state-value function, or utility]] $U$, transition probability $P$, and rewards $R$
 - Global variables: policy $\pi$
 
 *Note*:
@@ -18,7 +18,7 @@ For a newly-reached state $s^{\prime}$ which is the result of the action $a$ per
 1. If we do not have prior knowledge about reward at $s^{\prime}$, then update it by the observed reward $r^{\prime}$
 2. Keep track of the total times we obtain $s^{\prime}$ given $(s, a)$, or $N_{s^{\prime} \mid s,a}$ as well as the total times we observe $(s, a)$, or $N_{s,a}$
 3. Update the related transition probability $P(t \mid s, a)$ where $t$ is any state that can obtained from $s, a$
-4. Update [[Value Function (Utility)]] $U$ by solving [[Bellman equation]] (e.g. using Policy Evaluation)
+4. Update [[state-value function, or utility]] $U$ by solving [[Bellman equation]] (e.g. using Policy Evaluation)
 5. Repeat the process with the next state $s \leftarrow s^{\prime}, a \leftarrow \pi(s^{\prime})$
 
 *Note*: Basically, we are performing [[Maximum Likelihood Estimate (MLE)]] to learn the transition model [0]

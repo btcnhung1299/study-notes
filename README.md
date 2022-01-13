@@ -1,5 +1,5 @@
-# strawberry-moon
-through the night, dear moon, peach, last fantasy
+# My study notes
 
+I keep these pieces in obisidian~
 
-obsidian kind of thing...
+Just put them here, in case I lose them someday.

@@ -1,4 +1,21 @@
 {
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "showFrontmatter": false,
+  "showLineNumber": true,
+  "foldIndent": false,
+  "spellcheck": true,
+  "vimMode": false,
+  "legacyEditor": false,
+  "livePreview": false,
+  "pdfExportSettings": {
+    "pageSize": "A5",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "readableLineLength": false,
+  "spellcheckLanguages": [
+    "en-US"
+  ]
 }

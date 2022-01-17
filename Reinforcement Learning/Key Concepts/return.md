@@ -1,5 +1,4 @@
-
-#### Return
+#### Description
 Return at timestep $t$ is the cumulative [[reward]]s from $t$ onwards. Typically, we consider the discounted return with [[discount factor]] $\gamma$ and use notation $G_t$, which stands for "goal", to denote return at timestep $t$.
 $$G_t = R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + \dots = \sum_{k=0}^{\infty} \gamma^k R_{t+k+1}$$
 - Finite-horizon discounted return over [[episode, or trajectory]] $\tau$ with horizontal size $T$

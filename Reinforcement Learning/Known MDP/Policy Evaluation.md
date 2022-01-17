@@ -1,5 +1,5 @@
 #### Description
-Given a policy, we want to predict the [[value function]] given the complete description of the environment, i.e. the [[Markov Decision Process]] behind it.
+Given a policy, we want to **predict** the [[value function]] given the complete description of the environment, i.e. the [[Markov Decision Process]] behind it.
 
 #### Algorithm
 

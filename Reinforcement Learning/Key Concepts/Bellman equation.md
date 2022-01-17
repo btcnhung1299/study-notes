@@ -12,6 +12,8 @@ Bellman equation states that the [[value function]] of a state (and action) is t
 	&= \mathbb{E} [R_{t+1} + \gamma V(S_{t+1}) \mid S_t = s, A_t = a] \\
 	&= \mathbb{E} \left\{ R_{t+1} + \gamma \mathbb{E}_{a^{\prime} \sim \pi} [Q(S_{t+1}, a^{\prime})] \mid S_t = s, A_t = a \right\}
 	\end{align}$$
+	or,
+	$$Q(S_t, A_t) = R_{t+1}(S_t, A_t) + \gamma Q(S_{t+1}, A_{t+1})$$
 	
 	When we act accordingly to a specified [[policy]] $\pi$,
 	$$
@@ -31,6 +33,9 @@ Bellman equation states that the [[value function]] of a state (and action) is t
 	&= \mathbb{E} [R_{t+1} + \gamma(R_{t+2} + \gamma R_{t+3} + \dots) \mid S_t = s] \\
 	&= \mathbb{E} [R_{t+1} + \gamma V(S_{t+1}) \mid S_t = s]
 	\end{align}$$
+	or,
+	$$V(S_t) = R_{t+1}(S_t, A_t) + \gamma V(S_{t+1})$$
+	
 	 When we act accordingly to a specified [[policy]] $\pi$,
 	$$
 	V_{\pi}(S_t = s)

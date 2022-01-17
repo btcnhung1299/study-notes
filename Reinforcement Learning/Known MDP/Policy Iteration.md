@@ -6,9 +6,11 @@ Used in [[Planning with given environment description using Dynamic Programming]
 **A. Description**
 1. Start with a guess policy $\pi_0$ and value function $V_0$
 2. Do [[Policy Evaluation]] to update the value function $V_{k+1}$
-3. Do *Policy Improvement*: update $\pi_{k+1}$ by acting greedily with respect to the value function $V_{k+1}$, which is guaranteed that the policy converges to the optimal policy $\pi_*$ (see [Proof](#proof)).
+3. Do *Greedy Policy Improvement*: update $\pi_{k+1}$ by acting greedily with respect to the value function $V_{k+1}$, which is guaranteed that the policy converges to the optimal policy $\pi_*$ (see [Proof](#proof)).
 
-Note: The greedy action update is simultaneously taken at all states. 
+**Note**: The greedy action update is simultaneously taken at all states.
+
+> The policy iteration is guaranteed to converge to optimal policy if the policy is [[GLIE]].
 
 **B. Pseudocode**
 ![350](../resources/PolicyIteration.png)

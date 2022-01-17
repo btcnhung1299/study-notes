@@ -1,4 +1,4 @@
-**Description**: In which a [[Temporal-Difference (TD)]] agent learn [[action-value function, or Q-function]], not [[state-value function, or utility]].
+**Description**: In which a [[Temporal-Difference (TD) Policy Evaluation]] agent learn [[action-value function, or Q-function]], not [[state-value function, or utility]].
 
 **Formulation**:
 $$Q(s,a) \leftarrow Q(s,a) + \alpha \left[ R(s) + \gamma \max_{a^{\prime}} Q(s^{\prime}, a^{\prime}) - Q(s,a) \right]$$

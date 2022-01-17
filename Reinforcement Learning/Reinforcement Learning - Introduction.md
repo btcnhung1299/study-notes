@@ -5,7 +5,7 @@
 **Reinforcement learning algorithms**:
 
 *Q: Model-based RL vs. model-free RL?*
-A: Model-based RL relies on model of the environment, i.e. the transition and reward function (e.g. [[Policy Evaluation]], [[Temporal-Difference (TD)]]), whereas it is not required or will be learned in model-free RL (e.g. [[Q-Learning]]).
+A: Model-based RL relies on model of the environment, i.e. the transition and reward function (e.g. [[Policy Evaluation]], [[Temporal-Difference (TD) Policy Evaluation]]), whereas it is not required or will be learned in model-free RL (e.g. [[Q-Learning]]).
 
 *Q: What does it mean to be a sample efficient RL?*
 A: A sample efficient algorithm can make the most of all available samples. That is, it requires few samples, or demonstrations in RL, to reach a certain level of performance.

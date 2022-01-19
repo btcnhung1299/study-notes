@@ -7,3 +7,4 @@ We want to plan our policy $\pi$ such that it is optimal in the environment, whi
 [[Model-Free Policy Iteration]]:
 1. Monte-Carlo (MC) Policy Iteration
 2. [[Temporal-Difference (TD) Policy Iteration]]
+3. [[Eligibility Traces]]

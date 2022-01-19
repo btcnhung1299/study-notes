@@ -7,6 +7,8 @@ Given a policy, we want to **predict** [[value function]] while having no inform
 	$$\tilde{G}_t = R_{t+1} + \gamma \tilde{V}(S_{t+1})$$
 	where $\tilde{V}(S_{t+1})$ is our **current estimation** of value function at next state.
 - We have the online implementation formulation with step size $\alpha$ as follows
+	$$V(S_t) \leftarrow V(S_t) + \alpha( \tilde{G}_t - V(S_t) )$$
+	or
 	$$V(S_t) \leftarrow V(S_t) + \alpha \underbrace{(R_{t+1} + \gamma V(S_{t+1}) - V(S_t))}_\text{TD error}$$
 
 > Observation: We don't need to see complete episodes as we replace the true return with our estimation. Therefore, it is compatible with infinite process and offline learning.
@@ -21,15 +23,17 @@ $$Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha(R_{t+1} + \gamma Q(S_{t+1}, A_{t+1
 
 *Note*: Another way to do TD is [[Q-Learning]].
 
+
+
 ---
 #### FAQ
 
-*Q: How is the efficiency of TD compared to [[Adaptive Dynamic Programming (ADP)]]?*
+Q: How does mean evolve in [[Temporal-Difference (TD) Policy Evaluation]] and [[Monte-Carlo (MC) Policy Evaluation, or Direct Utility Estimate]]?
+A:
+- In MC, the mean converges to the true value that minimizes MSE, or best fit to observed return.
+- In TD, the mean converges to the true value that best explains the data, or maximize likelihood Markov model (implicitly build Markov process).
+
+![350](../resources/MeanEvolvementMCTDPrediction.png)
+
+Q: How is the efficiency of TD compared to [[Adaptive Dynamic Programming (ADP)]]?
 A: As shown in [0], TD requires more trials to learn optimal policy. Yet, it requires less computation per observation.
-
-*Q: How to design learning rate $\alpha$?*
-A: $a$ is chosen as a function of number of visited state to ensure convergence to the correct value, i.e. $a(n) = \frac{60}{59 + n}$ [0]
-
----
-#### References
-[0] Artificial Intelligence: A Modern Approach

@@ -42,3 +42,12 @@ $$V(S_t) \leftarrow (1 - \alpha) V(S_t) + \alpha G_t$$
 
 **Disadvantage**:
 - Violate the nature of states, or [[Bellman equation]]: states are not independent from each other -> slow converge
+
+---
+### FAQ
+
+Q: How to design step size $\alpha$?
+A: $\alpha$ is chosen as a function of number of visited state to ensure convergence to the correct value, i.e. $\alpha = f(n) = \frac{60}{59 + n}$ [0]
+
+### References
+[0] Artificial Intelligence: A Modern Approach

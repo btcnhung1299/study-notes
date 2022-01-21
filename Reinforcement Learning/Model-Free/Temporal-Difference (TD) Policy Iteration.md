@@ -1,4 +1,4 @@
-#### Description
+bb#### Description
 Used in [[Planning without environment description, or model-free planning]] to find optimal [[policy]] by iteratively doing [[Temporal-Difference (TD) Policy Evaluation]] in [[Model-Free Policy Iteration]].
 
 #### Algorithms
@@ -21,6 +21,11 @@ Vanilla algorithm that attempts to directly apply policy iteration:
 
 - Almost similar to SARSA, but considering the optimal next action instead of expectation of all actions **defined by the current policy $\pi$**.
 	$Q_\pi(S_t, A_t) \leftarrow Q_\pi(S_t, A_t) + \alpha(R_{t+1} + \gamma \max_{a \in \mathcal{A}} Q_\pi(S_{t+1}, a) - Q_\pi(S_t, A_t))$
+
+- Alternatively, we can see Q-learning as SARSA in a special case when $\pi$ is a greedy policy, i.e. $\pi(s) = \arg \max_{a \in \mathcal{A}} Q(s, a).$
+	$$Q(S_{t+1}, \pi(S_{t+1})) 
+	= Q(S_{t+1}, \arg \max_{a \in \mathcal{A}} Q(S_{t+1}, a)) 
+	= \max_{a \in \mathcal{A}} Q_\pi(S_{t+1}, a)$$
 
 *Pseudocode*:
 ![400](../resources/Qlearning.png)

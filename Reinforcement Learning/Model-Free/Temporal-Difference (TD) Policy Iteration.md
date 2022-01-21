@@ -21,10 +21,11 @@ Vanilla algorithm that attempts to directly apply policy iteration:
 
 - Almost similar to SARSA, but considering the optimal next action instead of expectation of all actions **defined by the current policy $\pi$**.
 	$Q_\pi(S_t, A_t) \leftarrow Q_\pi(S_t, A_t) + \alpha(R_{t+1} + \gamma \max_{a \in \mathcal{A}} Q_\pi(S_{t+1}, a) - Q_\pi(S_t, A_t))$
-- Picking the optimal action means that it does not need to follow the current policy $\pi$ and the optimal action may not be followed in the next step.
 
 *Pseudocode*:
 ![400](../resources/Qlearning.png)
+
+> Observation: Picking the optimal action means that it does not need to follow the current policy $\pi$ and the optimal action may not be followed in the next step. Compared to SARSA pseudocode, we indeed have no specific next action update at the end of the inner loop.
 
 **C. Deep Q-Network**
 
@@ -32,5 +33,5 @@ Vanilla algorithm that attempts to directly apply policy iteration:
 ---
 ### FAQ
 
-Q: Why is SARSA good for on-policy learning while Q-learning good for off-policy?
-A: 
+Q: Why is SARSA good for on-policy learning while Q-learning good for [[Off-Policy Learning]]?
+A: Q-learning does not need to follow the behavior policy to pick next action and thus, is useful in off-policy learning.

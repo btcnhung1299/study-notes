@@ -16,7 +16,7 @@ Given a policy, we want to **predict** [[value function]] while having no inform
 **Note**: For [[action-value function, or Q-function]], we use the following formular:
 $$Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha(R_{t+1} + \gamma Q(S_{t+1}, A_{t+1} - Q(S_t, A_t))$$
 
-> Application: In [[Model-Free Policy Iteration]], we will take greedy actions with respect to [[action-value function, or Q-function]] instead of [[state-value function, or utility]] because we do not have $P^a_{ss^\prime}$.
+> Application: In [[Model-Free Value-based RL, or Policy Iteration]], we will take greedy actions with respect to [[action-value function, or Q-function]] instead of [[state-value function, or utility]] because we do not have $P^a_{ss^\prime}$.
 
 **B. Pseudocode**
 ![380](../resources/TDPrediction.png)

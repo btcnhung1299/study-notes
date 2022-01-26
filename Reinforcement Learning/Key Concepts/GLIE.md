@@ -5,4 +5,4 @@ A policy is guaranteed to converge to optimal policy if it is *GLIE* (**G**reedy
 	$$\lim_{k \to \infty} \pi_k(a \mid s) = \mathbf{1}(a = \arg \max_{a^\prime \in \mathcal{A}} Q_k(s, a^\prime))$$
 	
 	
-For example, $\epsilon$-greedy (used in [[Model-Free Policy Iteration]]) is GLIE when $\epsilon$ decays towards 0, i.e. picking random actions and proven to improve current policy.
+For example, $\epsilon$-greedy (used in [[Model-Free Value-based RL, or Policy Iteration]]) is GLIE when $\epsilon$ decays towards 0, i.e. picking random actions and proven to improve current policy.

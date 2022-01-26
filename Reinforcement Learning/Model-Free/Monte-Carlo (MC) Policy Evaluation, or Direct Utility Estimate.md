@@ -10,7 +10,7 @@ Given a policy, we want to **predict** [[value function]] while having no inform
 **Note 1**: For each state, we can either consider its first appearance (result in *First-visit MC policy evaluation*) or its every appearance (result in *Every-visit MC policy evaluation*) in tracking.
 
 **Note 2**: For [[action-value function, or Q-function]], we will consider (state, action) pairs instead of state.
-> Application: In [[Model-Free Policy Iteration]], we will take greedy actions with respect to [[action-value function, or Q-function]] instead of [[state-value function, or utility]] because we do not have $P^a_{ss^\prime}$.
+> Application: In [[Model-Free Value-based RL, or Policy Iteration]], we will take greedy actions with respect to [[action-value function, or Q-function]] instead of [[state-value function, or utility]] because we do not have $P^a_{ss^\prime}$.
 
 **Note 3**: Mean tracking can be done online with incremental method, see below.
 
@@ -42,6 +42,15 @@ $$V(S_t) \leftarrow (1 - \alpha) V(S_t) + \alpha G_t$$
 
 **Disadvantage**:
 - Violate the nature of states, or [[Bellman equation]]: states are not independent from each other -> slow converge
+
+---
+### FAQ
+
+Q: How to design step size $\alpha$?
+A: $\alpha$ is chosen as a function of number of visited state to ensure convergence to the correct value, i.e. $\alpha = f(n) = \frac{60}{59 + n}$ [0]
+
+### References
+[0] Artificial Intelligence: A Modern Approach
 
 ---
 ### FAQ

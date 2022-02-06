@@ -1,11 +1,10 @@
-#### Description
-Bellman equation states that the [[value function]] of a state (and action) is the sum of its immediate [[reward]] and the expected value (called Bellman expectation equation) or the optimal value (called Bellman optimality equation) of its successor states.
+Bellman equation states that the [[Value Function]] of a state (and action) is the sum of its immediate reward and the upcoming rewards (either by expectation or optimal ones, which gives raise to Bellman Expectation and Bellman Optimality Equation).
 
-> Application: Bellman equation can be used in prediction/planning (by using Bellman expectation equation to find the latent [[value function]]) and control (to find the optimal [[policy]] by using Bellman optimality equation)
+> Application: Bellman equation can be used in prediction/planning (by using Bellman Expectation Equation to find the latent [[Value Function]]) and control (to find the optimal [[Policy]] by using Bellman Optimality Equation)
 
-#### Bellman Expectation Equation
+## Bellman Expectation Equation
 
-- From the definition of [[action-value function, or Q-function]]:
+- From the definition of [[Action-value Function, or Q-function]]:
 	$$\begin{align}
 	Q(S_t = s, A_t = a)
 	&= \mathbb{E} [G_t \mid S_t = s, A_t = a] \\
@@ -25,7 +24,7 @@ Bellman equation states that the [[value function]] of a state (and action) is t
 	$$
 	where $P^a_{ss^{\prime}}$ refers to the [[transition probability]] from state $s$ to $s^{\prime}$ with action $a$.
 
-- From the definition of [[state-value function, or utility]]:
+- From the definition of [[State-value Function, or Utility]]:
 	$$\begin{align}
 	V(S_t = s) 
 	&= \mathbb{E} [G_t \mid S_t =s] \\
@@ -45,11 +44,11 @@ Bellman equation states that the [[value function]] of a state (and action) is t
 
 	**Note**: Alternatively, we can derive above equation based on $V_\pi(s) = \sum_{a \in \mathcal{A}} \pi(a \mid s) Q_\pi(s,a)$.
 
-> Observation: The [[value function]] of the current state (and action) is, in fact, dependent on the value of the next state.
+> Observation: The [[Value Function]] of the current state (and action) is, in fact, dependent on the value of the next state.
 
-#### Bellman Optimality Equation
+## Bellman Optimality Equation
 
-- In [[action-value function, or Q-function]]:
+- In [[Action-value Function, or Q-function]]:
 	$$\begin{align}
 	Q_*(S_t = s, A_t = a) &= \max_{\pi} Q_\pi(s,a) \\
 	&= R_{t+1}(s,a) + \gamma \sum_{s^{\prime} \in \mathcal{S}} P_{ss^{\prime}}^a V_*(s^{\prime}) \\
@@ -57,7 +56,7 @@ Bellman equation states that the [[value function]] of a state (and action) is t
 	\end{align}
 	$$
 
-- In [[state-value function, or utility]]:
+- In [[State-value Function, or Utility]]:
 	$$\begin{align}
 	V_{\pi^*}(S_t = s) &= \max_\pi V_\pi(s) \\
 	&= \max_{a  \in \mathcal{A}} 
@@ -67,4 +66,4 @@ Bellman equation states that the [[value function]] of a state (and action) is t
 	
 	Note: Alternatively, we can derive above equation based on $V_*(s) = \max_{a \in \mathcal{A}} Q_*(s,a)$
 
-> Observation: The optimality equation involves non-linear operation (i.e. $\max$). Hence, no closed form solution. However, we can use iterative methods in [[Planning with given environment description using Dynamic Programming]].
+> Observation: The optimality equation involves non-linear operation (i.e. $\max$) and thus, there is no closed form solution. However, we can use iterative methods in [[Planning with given environment description using Dynamic Programming]] to find the optimal value function (and thus optimal policy) in a known [[Markov Decision Process]].

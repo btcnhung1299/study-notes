@@ -1,6 +1,6 @@
 ### Description
 
-Off-policy refers to the situation when the [[policy]] we are following is different than the one we are learning from.
+Off-policy refers to the situation when the [[Policy]] we are following is different than the one we are learning from.
 
 Formally, the policy in our dataset (that generates behavior) is called *behavior policy*, denoted as $\mu(a \mid s)$, whereas the policy we are following is $\pi(a \mid s)$. Assume $\mu \neq \pi$.
 

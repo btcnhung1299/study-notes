@@ -1,10 +1,10 @@
 #### Description
-Used in [[Planning with given environment description using Dynamic Programming]] to find the optimal [[value function]] and [[policy]].
+Used in [[Planning with given environment description using Dynamic Programming]] to find the optimal [[Value Function]] and [[Policy]].
 
 #### Algorithm
 **A. Description**
 1. Start with an initial guess $V_0$
-2. Iteratively update $V_{k+1}$ such that it satistifies the **Bellman optimality equation** (see [[Bellman equation]]), given the current guess of optimal policy $V_k$ and the rewards $R^\pi$
+2. Iteratively update $V_{k+1}$ such that it satistifies the **Bellman optimality equation** (see [[Bellman Equation]]), given the current guess of optimal policy $V_k$ and the rewards $R^\pi$
 3. Given optimal value function $V_\pi$, we act greedily to obtain the optimal policy $\pi_*$
 
 Intuitively, we start from the final reward and work backwards. Yet in implementation, we update all states at once (in fact, we don't know where is our goal or which direction gives best results).

@@ -1,18 +1,15 @@
-## Description
-We can directly find the optimal [[policy]] using the same idea in [[Value Function Approximation]] by considering
+Assume that policy can be approximatedly represented as with [[Value Function]] by [[Value Function Approximation]], we consider the parameteric policy
 $$\tilde{\pi}(a \mid s, \theta) \approx \pi_\theta(a \mid s)$$
 
-> Application: Policy-based RL is especially helpful for stochastic policy when picking greedy actions require multiple optimization problems.
-
-## Policy Objective Function
-A good policy is a policy with highest [[value function]], or expected [[return]]. Hence, we define our objective function is to maximize the [[value function]] and use **gradient ascent** to solve.
+## Objective Function
+A good policy is a policy that gives maximum [[Value Function]], or expected [[Return as cumulative onward reward]]. Hence, we define our objective function is to maximize the [[Value Function]] and use **gradient ascent** to solve.
 
 - In deterministic environment, we can use value function from the initial state $S_t$ or "start value".
 	$$J(\theta) = V_\tilde{\pi}(S_1)$$
 
 - In continuous environment where there is no initial state, we consider the expectation over all states.
 	$$J(\theta) = \sum_{s \in \mathcal{S}} d_\tilde{\pi}(s) V_\tilde{\pi}(s)$$
-	where $d_\tilde{\pi}(s)$ is the [[stationary distribution of a Markov Chain]] for policy $\tilde{\pi}$.
+	where $d_\tilde{\pi}(s)$ is the [[Stationary Distribution of a Markov Chain]] for policy $\tilde{\pi}$.
 	
 ## Policy Gradient
 - **Numerically**, we can find $\nabla J(\theta)$ using finite difference as we perturb by $\epsilon$
@@ -25,7 +22,7 @@ A good policy is a policy with highest [[value function]], or expected [[return]
 	$$\nabla_\theta J(\theta) = \mathbb{E}_{\tilde{\pi}}[ \nabla \log \tilde{\pi}(a \mid s, \theta) Q_\pi(s, a) ]$$
 	
 ### Proof
-- First, we expand the [[state-value function, or utility]] by [[action-value function, or Q-function]]:
+- First, we expand the [[State-value Function, or Utility]] by [[Action-value Function, or Q-function]]:
 $$\begin{align}
 	\nabla_\theta J(\theta) 
 	&= \nabla_\theta \sum_{s \in \mathcal{S}} d_\tilde{\pi}(s) V_\tilde{\pi}(s) \\
@@ -50,6 +47,8 @@ $$\begin{align}
 	
 ## Algorithms
 
+- [[REINFORCE]]
+
 **Reduce Variance Trick**: In practice, we subtract baseline function to reduce the variance of our estimators while keeping the bias unchanged. Baseline function is determined a function of state, denoted as $B(s)$, because
 $$\begin{align}
 \mathbb{E}_\tilde{\pi} [ \nabla \log \tilde{\pi}(s \mid a, \theta) B(s) ] 
@@ -58,18 +57,9 @@ $$\begin{align}
 &= 0
 \end{align}$$
 
-[[State-value function, or utility]] can serve as such baseline, resulting in [[Advantage Function]].
+[[State-value Function, or Utility]] can serve as such baseline, resulting in [[Advantage Function]].
 
-### REINFORCE, or Monte-Carlo Policy Gradient
-- Use [[return]] $G_t$ achieved via Monte-Carlo method as an unbiased sample of $Q_\pi(s,a)$. 
-- Hence, a SGD update becomes
-	$$\theta \leftarrow \theta + \alpha \nabla \log \tilde{\pi}(a \mid s, \theta) G_t$$
-
-### Actor-Critic
-- Besides learned policy, we also use a "critic" to learn to approximate the [[value function]].
-	- Critic: update $\tilde{Q}_{\tilde{\pi}}(s, a \mid w)$
-	- Actor: update $\tilde{\pi}(a \mid s, \theta)$
-- Hence, a SGD update becomes
-	$$\theta \leftarrow \theta + \alpha \nabla \log \tilde{\pi}(a \mid s, \theta) \tilde{Q}_{\tilde{\pi}}(s, a \mid w)$$
-
-### A2C/A3C
+---
+# FAQ
+1. Q: In which case policy gradient is preferred over [[Model-Free Policy Iteration (Model-Free Value-based RL)]]?
+	A: Policy-based RL is especially helpful for stochastic policy when picking greedy actions in value-based RL requires multiple optimization problems.

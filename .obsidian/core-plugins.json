@@ -7,12 +7,11 @@
   "page-preview",
   "note-composer",
   "command-palette",
+  "editor-status",
   "markdown-importer",
   "random-note",
-  "outline",
   "word-count",
   "open-with-default-app",
-  "workspaces",
   "file-recovery",
   "sync"
 ]

@@ -1,11 +1,11 @@
-### Description
+## Description
 Instead of table lookup, we can use (machine learning) models, parameterized by $\theta$, to apprioximate value function for
-- Each state ([[state-value function, or utility]])
+- Each state ([[State-value Function, or Utility]])
 	$$\tilde{V}(s, \theta) \approx V_\pi(s)$$
-- Each (state, action) pair ([[action-value function, or Q-function]])
+- Each (state, action) pair ([[Action-value Function, or Q-function]])
 	$$\tilde{Q}(s, a, \theta) \approx Q_\pi(s,a)$$
 	
-### Objective function
+## Objective function
 Objectively, we minimize the [[Mean Square Error (MSE)]] between approximated value function and the true/oracle value function
 $$J(\theta) = \mathbb{E}_\pi[ (V_\pi(s) - \tilde{V}(s, \theta))^2 ]$$
 
@@ -19,10 +19,10 @@ $$\begin{gather}
 In fact, we do not have the true value function: we can use model-free prediction to create ground-truth labels for value functions from our dataset, which is a supervised learning.
 
 Particularly,
-- Use [[Monte-Carlo (MC) Policy Evaluation, or Direct Utility Estimate]]
+- Use [[Monte-Carlo (MC) Policy Evaluation, or Direct Utility Estimate]] (resulted in [[REINFORCE]])
 $$-\frac{1}{2}\nabla_\theta J(\theta) = \mathbb{E}_\pi \left[ G_t - \tilde{V}(S_t, \theta) \right] \nabla_\theta \tilde{V}(S_t, \theta)$$
 
-- Use [[Temporal-Difference (TD) Policy Evaluation]]
+- Use [[Temporal-Difference (TD) Policy Evaluation]] (resulted in [[SARSA]], [[Q-learning]])
 $$-\frac{1}{2}\nabla_\theta J(\theta) = \mathbb{E}_\pi \left[ R_{t+1} + \gamma \tilde{V}(S_{t+1}, \theta) - \tilde{V}(S_t, \theta) \right] \nabla_\theta \tilde{V}(S_t, \theta)$$
 > Observation: We do not take derivative of $\tilde{V}(S_{t+1}, \theta)$ because (intuitively), we do want to update the function with respect to the value function of a state we haven't observed its reward.
 

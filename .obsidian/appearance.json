@@ -1,10 +1,9 @@
 {
-  "baseFontSize": 15,
+  "baseFontSize": 14,
   "theme": "moonstone",
-  "translucency": false,
   "cssTheme": "Deep Work",
-  "baseFontSizeAction": false,
+  "translucency": false,
   "enabledCssSnippets": [
-    "MyFont"
+    "Fonts"
   ]
 }

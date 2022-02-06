@@ -1,0 +1,4 @@
+Double DQN is an extension over [[DQN (Deep Q-Network)]], which employs [[Q-learning]] with deep neural network and enhanced with experience replay and target network to make the training more stable. However, DQN suffers from overestimation of action values, i.e. gives ridiculously high action values despite its effect on finding optimal policy is obscure. The authors point out that the max operator in action value updates, i.e. 
+$$R_{t+1} + \gamma Q_\mathbf{w} \left( S_{t+1}, \max_{a \in \mathcal{A}} Q_\mathbf{w}(S_{t+1}, a) \right)$$
+uses the same set of parameters $\mathbf{w}$. With mathematical proof, the authors suggest decoupling into two sets of parameters $\mathbf{w}$ and $\mathbf{w}^\prime$, gives rise to the term "Double ...". In general, our bootstrap action values are computed as
+$$R_{t+1} + \gamma Q_\mathbf{w} \left( S_{t+1}, \max_{a \in \mathcal{A}} Q_\mathbf{w^\prime}(S_{t+1}, a) \right)$$

@@ -1,5 +1,5 @@
 #### Description
-Used in [[Planning with given environment description using Dynamic Programming]] to find the optimal [[value function]] and [[policy]].
+Used in [[Planning with given environment description using Dynamic Programming]] to find the optimal [[Value Function]] and [[Policy]].
 
 #### Algorithm
 

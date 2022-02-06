@@ -1,31 +1,16 @@
 {
   "main": {
-    "id": "0343847b6a415453",
+    "id": "d5366200510239b3",
     "type": "split",
     "children": [
       {
-        "id": "660c7a576f69c0d7",
+        "id": "1b0e7a7622603c01",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Statistics & Probabilities/Priori probability.md",
-            "mode": "preview",
-            "backlinks": false,
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "37c3863007cfea90",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Reinforcement Learning/Model-Free/Monte-Carlo (MC) Policy Evaluation, or Direct Utility Estimate.md",
-            "mode": "preview",
-            "backlinks": false,
-            "source": true
+            "file": "Reinforcement Learning/Algorithms/List of notable RL algorithms.md",
+            "mode": "preview"
           }
         }
       }
@@ -33,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4fb4112ae350ed70",
+    "id": "7c839808b063e2ca",
     "type": "split",
     "children": [
       {
-        "id": "37aa03a1a4c7f4a9",
+        "id": "8ccd4b03e68d91d2",
         "type": "tabs",
         "children": [
           {
-            "id": "b42a6759166cbc65",
+            "id": "117078771c384c66",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -49,7 +34,7 @@
             }
           },
           {
-            "id": "79e36caab439c431",
+            "id": "ef4ffcf92c1c6dd0",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,34 +52,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241
+    "width": 255
   },
   "right": {
-    "id": "c454b18eda3379d4",
+    "id": "93f85f7f755f7ace",
     "type": "split",
     "children": [
       {
-        "id": "9c008c47032b5490",
+        "id": "596194e4e98378b9",
         "type": "tabs",
         "children": [
           {
-            "id": "7872dee8131895c0",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Statistics & Probabilities/Priori probability.md"
-              }
-            }
-          },
-          {
-            "id": "f1803fdbfcef8d03",
+            "id": "18d386d02df13a9c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics & Probabilities/Priori probability.md",
-                "collapseAll": true,
+                "file": "Reinforcement Learning/Algorithms/List of notable RL algorithms.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -108,20 +83,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265,
+    "width": 300,
     "collapsed": true
   },
-  "active": "660c7a576f69c0d7",
+  "active": "1b0e7a7622603c01",
   "lastOpenFiles": [
-    "Statistics & Probabilities/Priori probability.md",
-    "Statistics & Probabilities/PDF and CDF.md",
-    "Statistics & Probabilities/Maximum Likelihood Estimate (MLE).md",
-    "Statistics & Probabilities/Markov property.md",
-    "Statistics & Probabilities/Markov Chain.md",
-    "Statistics & Probabilities/Markov assumption.md",
-    "Statistics & Probabilities/Marginal, Joint, and Conditional Probabilities.md",
-    "Statistics & Probabilities/Likelihood.md",
-    "Statistics & Probabilities/Independent and Identically Distributed.md",
-    "Statistics & Probabilities/Covariance matrix.md"
+    "Reinforcement Learning/Algorithms/List of notable RL algorithms.md",
+    "Reinforcement Learning/Algorithms/Dueling Network.md",
+    "Reinforcement Learning/Algorithms/DRQN (Deep Recurrent Q-Network).md",
+    "Reinforcement Learning/Algorithms/QMIX.md",
+    "Reinforcement Learning/Algorithms/Double DQN.md",
+    "Generic DL/Mean Square Error (MSE).md",
+    "Reinforcement Learning/Algorithms/DDPG (Deep Deterministic Policy Gradient).md",
+    "Reinforcement Learning/Algorithms/DQN (Deep Q-Network).md",
+    "Reinforcement Learning/Model-Free/Actor-Critic.md",
+    "Reinforcement Learning/Model-Free/Policy Gradient (Model-Free Policy-based RL).md"
   ]
 }

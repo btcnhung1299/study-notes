@@ -9,7 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reinforcement Learning/Algorithms/List of notable RL algorithms.md",
+            "file": "Reinforcement Learning/Algorithms/QMIX.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "ea4fbad22e58e544",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Reinforcement Learning/Algorithms/QMIX.md",
             "mode": "preview"
           }
         }
@@ -68,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reinforcement Learning/Algorithms/List of notable RL algorithms.md",
+                "file": "Reinforcement Learning/Algorithms/QMIX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,10 +99,10 @@
   },
   "active": "1b0e7a7622603c01",
   "lastOpenFiles": [
+    "Reinforcement Learning/Algorithms/QMIX.md",
     "Reinforcement Learning/Algorithms/List of notable RL algorithms.md",
     "Reinforcement Learning/Algorithms/Dueling Network.md",
     "Reinforcement Learning/Algorithms/DRQN (Deep Recurrent Q-Network).md",
-    "Reinforcement Learning/Algorithms/QMIX.md",
     "Reinforcement Learning/Algorithms/Double DQN.md",
     "Generic DL/Mean Square Error (MSE).md",
     "Reinforcement Learning/Algorithms/DDPG (Deep Deterministic Policy Gradient).md",

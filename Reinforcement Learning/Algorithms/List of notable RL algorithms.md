@@ -9,7 +9,7 @@ Algorithm | Year | Author(s)
 [[Dueling Network]] | 2016 | Wang et al.
 [[DRQN (Deep Recurrent Q-Network)]] | 2017 | Hausknecht et al.
 PPO | |
-A3C | |
+[[A3C (Asynchronous Advantage Actor-Critic)]] |  2016 | Mnih et al.
 [[QMIX]] | 2018 | Rashid et al.
 BCQ | |
  

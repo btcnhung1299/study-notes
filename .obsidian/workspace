@@ -4,12 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "1b0e7a7622603c01",
+        "id": "556e54c36d67ddae",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reinforcement Learning/Algorithms/List of notable RL algorithms.md",
+            "file": "Climate Change/Climate Change (CC).md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "73bd664e736f4973",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Climate Change/Radiative Forcing.md",
             "mode": "preview"
           }
         }
@@ -68,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reinforcement Learning/Algorithms/List of notable RL algorithms.md",
+                "file": "Climate Change/Climate Change (CC).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1b0e7a7622603c01",
+  "active": "556e54c36d67ddae",
   "lastOpenFiles": [
+    "Climate Change/Climate Change (CC).md",
+    "Climate Change/Global Warming Potential (GWP).md",
+    "Climate Change/Greenhouse Gases (GHG).md",
+    "Climate Change/Radiative Forcing.md",
     "Reinforcement Learning/Algorithms/List of notable RL algorithms.md",
     "Reinforcement Learning/Algorithms/A3C (Asynchronous Advantage Actor-Critic).md",
     "Reinforcement Learning/Algorithms/QMIX.md",
     "Reinforcement Learning/Model-Free/Actor-Critic.md",
-    "Climate Change/Climate Change.md",
-    "Climate Change/Radiative Forcing.md",
-    "Climate Change/Greenhouse Gases (GHC).md",
     "Reinforcement Learning/Model-Free/Temporal-Difference (TD) Policy Evaluation.md",
-    "Reinforcement Learning/Algorithms/Dueling Network.md",
-    "Reinforcement Learning/Algorithms/DRQN (Deep Recurrent Q-Network).md"
+    "Reinforcement Learning/Algorithms/Dueling Network.md"
   ]
 }

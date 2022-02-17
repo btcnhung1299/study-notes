@@ -1,15 +1,31 @@
-**Original paper**: [Continuous Control with Deep Reinforcement Learning](https://arxiv.org/abs/1509.02971)
+DDPG [1] is a deep RL algorithm that acts on continous/stochastic policy.
 
-Naturally, one might want to extend [[DQN (Deep Q-Network)]] in continuous action space. However, it is practically infeasible as DQN requires significant resources to find greedy action in $\max_{a \in \mathcal{A}} Q(s,a)$ given continous action space. Hence, based on [[Actor-Critic]] method, DDPG **employs an actor that would learn to suggest the best action**. DDPG employs experience replay and target network to make the training more stable, as successfully proven in DQN.
+### Components
+DDPG employs [[Actor-Critic]] method with
+- Actor network $\pi_\theta(s)$ and its target $\pi_{\theta^-}(s)$
+- Critic network $Q_w(s,a)$ and its target $Q_{w^-}(s,a)$
+- Experience replay buffer
 
-- Let our critic $Q_w(s,a)$ and our actor $\pi_\theta(s)$
+### Flow
+- Pool into a memory replay tuples of <state, action, reward> and randomly pick a batch of samples from this replay memory to compute loss and back-propagation. 
 
-- Pool into a memory replay tuples of <state, action, reward> and randomly pick a batch of samples from this replay memory to compute loss and back-propagation. This experience replay is claimed to break the correlations of consecutive samples.
-
-- Two phases of optimization are carried out:
+- Specially, two phases of optimization are carried out:
 	1. Optimization of the critic $Q_w(s,a)$: use [[Gradient Descent]] to minimize the [[Mean Square Error (MSE)]] between the action values predicted by the target actor and our actor. As introduced, next action in the equation is predicted via the (target) critic.
 	2. Optimization of the actor $\pi_\theta(s)$: basically [[Policy Gradient (Model-Free Policy-based RL)]] in which we try to maximize the total action values using gradient ascent.
 
+- Periodically update the target actor and critic.
+
+### Novelty
+
+- To apply [[DQN (Deep Q-Network)]] for continuous action space, DDPG suggests actor network to predict next best actions instead of greedily searching $\max_{a \in \mathcal{A}} Q(s,a)$ which is infeasible.
+- Inspired by [[DQN (Deep Q-Network)]], the authors use experience replay to break the correlations of consecutive samples.
+- Inspired by [[DQN (Deep Q-Network)]], the authors use target networks to stablise the training.
 
 ***Pseudocode***:
 ![550](../resources/DDPG.png)
+
+### Experimental settings
+
+
+---
+[1] [Continuous Control with Deep Reinforcement Learning](https://arxiv.org/abs/1509.02971)

@@ -1,4 +1,4 @@
-QMIX [1] is a multi-agent reinforcement learning algorithm.
+QMIX [1] is a multi-agent reinforcement learning algorithm that allows centralized learning with decentralized execution.
 
 ### Components
 QMIX contains two different networks:
@@ -30,7 +30,7 @@ QMIX contains two different networks:
 ### Overall architecture
 ![400](../resources/QMIX.PNG)
 
-### Settings
+### Experimental settings
 
 - Agent network: uses [[DRQN (Deep Recurrent Q-Network)]] $Q_i(\tau^a, u^a)$
 - Mixing network: [[FFN (Feed Forward Network)]] (inputs are $Q_i$)

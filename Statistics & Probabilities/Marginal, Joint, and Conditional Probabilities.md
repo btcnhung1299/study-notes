@@ -13,17 +13,12 @@
 - Description: The probability of the event $Y=y$ given $X=x$ occured
 - Example: the probability that a drawn card is not greater than 10, given it is a red card $p(\leq 10 \mid \text{red}) = \frac{2 * 10}{52 * \frac{2}{4}}$
 
-**Chain Rule**:
-$$P(X, Y) = P(X \mid Y) * P(Y)$$
-
 ---
+# FAQ
 
-*Q: Relation between the three?*
-A: Marginal probability can be computed from joint probability, which is in turn can be computed with conditional probabilities.
-$$
-\begin{align}
-P(X=x) = \int_y P(X=x, Y=y) 
-&= \int_{-\infty}^{\infty} P(X=x, Y=y)dy \\
-&= \int_{-\infty}^{\infty} P(X=x|Y=y)P(Y=y)dy
-\end{align}
-$$
+1. Q: What is the relation between marginal, joint, and conditional probability?
+A: They relate to each other via **the sum rule** and **the product rule (a.k.a., the chain rule)**:
+	- The sum rule states that the marginal of $x$ is obtained by summing (or taking integral) the joint over $y$.
+		$$P(x) = \sum_y P(x, y) = \int_{-\infty}^{\infty} P(x, y)dy$$
+	- The product rule states that the joint can be decomposed as a product of the marginal and the conditional.
+		$$P(x, y) = P(x|y)P(y)$$

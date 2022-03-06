@@ -4,23 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "00d2eee6387a2f67",
+        "id": "b96caab0d752444b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Statistics & Probabilities/Frequentist vs. Bayesian.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "71d7404509d39120",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Statistics & Probabilities/Frequentist vs. Bayesian.md",
+            "file": "Generic DL/Optimisation Algorithms/Optimisation Algorithms.md",
             "mode": "preview"
           }
         }
@@ -63,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255
+    "width": 332
   },
   "right": {
     "id": "93f85f7f755f7ace",
@@ -79,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics & Probabilities/Frequentist vs. Bayesian.md",
+                "file": "Generic DL/Optimisation Algorithms/Optimisation Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "00d2eee6387a2f67",
+  "active": "b96caab0d752444b",
   "lastOpenFiles": [
-    "Statistics & Probabilities/Frequentist vs. Bayesian.md",
-    "Generic DL/Losses/Entropy.md",
+    "Generic DL/Optimisation Algorithms/Optimisation Algorithms.md",
     "Generic DL/Cost Function, Gradient, Jacobian, and Hessian.md",
-    "Generic DL/Mean Square Error (MSE).md",
-    "Generic DL/LSTM.md",
-    "Generic DL/Generative and Discriminative Models.md",
-    "Generic DL/Optimisation Algorithms.md",
-    "Generic DL/Residual.md",
     "Generic DL/Taylor series approximation of cost function.md",
-    "Probabilistic AI/Bayesian optimisation.md"
+    "Generic DL/Losses/Mean Square Error (MSE).md",
+    "Generic DL/LSTM.md",
+    "Generic DL/Dropout.md",
+    "Generic DL/Generative and Discriminative Models.md",
+    "Generic DL/Kolmogorov's Axioms.md",
+    "Calculus/Integration by Parts.md",
+    "Calculus/Gamma Function.md"
   ]
 }

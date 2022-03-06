@@ -1,7 +1,7 @@
-*Approach*: Replace basic layers in encoder-decoder to (multi-headed) self-[[attention]] (instead of recurrence or convolution)
+*Approach*: Replace basic layers in encoder-decoder to (multi-headed) self-[[Attention]] (instead of recurrence or convolution)
 
 **Model architecture**:
-![300](./resources/AttentionIsAllYouNeed-Figure1.png)
+![300](AttentionIsAllYouNeed-Figure1.PNG)
 
 *Observations*:
 - In decoding, we will combine hidden state from the encoder **and** masked attention values from the output. Intuitvely, it allows us to make prediction based on the latent input representation as well as our preditions for the previous tokens.

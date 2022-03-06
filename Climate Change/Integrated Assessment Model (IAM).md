@@ -1,0 +1,1 @@
+Integrated Assessment Model (IAM) considers socio-economic factor as well as climate science to approximate the total costs and aid policy-makers to find the pathway with lowest cost.

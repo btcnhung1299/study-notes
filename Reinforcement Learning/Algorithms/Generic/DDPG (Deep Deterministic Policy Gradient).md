@@ -22,7 +22,7 @@ DDPG employs [[Actor-Critic]] method with
 - Inspired by [[DQN (Deep Q-Network)]], the authors use target networks to stablise the training.
 
 ***Pseudocode***:
-![550](../resources/DDPG.png)
+![550](DDPG.PNG)
 
 ### Experimental settings
 

@@ -7,6 +7,6 @@ Vanilla algorithm that attempts to directly apply [[Policy Iteration]] with no k
 - Policy Improvement: use [[Epsilon-greedy Policy Improvement]] to greedily take actions among the greediest and exploratory ones.
 
 ***Pseudocode***:
-![400](../resources/SARSA.png)
+![400](SARSA.png)
 
 **Note**: We can use n-step TD to make the best of [[Temporal-Difference (TD) Policy Evaluation]] and [[Monte-Carlo (MC) Policy Evaluation, or Direct Utility Estimate]], resulted in n-step SARSA.

@@ -9,4 +9,4 @@ Basically, DQN (Deep Q-Network) is [[Q-learning]] with [[Value Function Approxim
 - Optimization is done via [[Gradient Descent]] with the objective to minimize the [[Mean Square Error (MSE)]] between the action values predicted by the target network and our network.
 
 ***Pseudocode***:
-![500](../resources/DQN.png)
+![500](DQN.PNG)

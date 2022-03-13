@@ -14,6 +14,6 @@ Alternatively, we can see Q-learning as [[SARSA]]'s special case when $\pi$ is a
 	\end{align}$$
 
 ***Pseudocode***:
-![400](../resources/Qlearning.png)
+![400](QLearning.png)
 
 In fact, you can observe from the pseudocode that we have no specific next action update at the end of the inner loop compared to [[SARSA]]. Picking the optimal action means that it does not need to follow the current policy $\pi$ and the optimal action may not be followed in the next step.

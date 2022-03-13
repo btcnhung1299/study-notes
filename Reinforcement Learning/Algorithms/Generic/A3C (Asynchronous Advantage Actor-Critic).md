@@ -12,7 +12,7 @@ At each thread,
 - Use accumulated local gradients to update global networks
 
 ***Pseudocode***
-![400](../resources/A3C.PNG)
+![400](A3C.PNG)
 
 ### Novelty
 - Utilize multiple CPU threads, resulted in reduction almost linearly with respect to the number of spanned agents

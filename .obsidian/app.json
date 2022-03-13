@@ -1,7 +1,8 @@
 {
-  "showLineNumber": false,
+  "showLineNumber": true,
   "foldIndent": true,
   "alwaysUpdateLinks": true,
   "spellcheck": false,
-  "foldHeading": true
+  "foldHeading": true,
+  "readableLineLength": true
 }

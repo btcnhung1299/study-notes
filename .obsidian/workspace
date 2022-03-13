@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7f16dd45ea2c8533",
+        "id": "e45b7c266d6d160b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Climate Change/Climate Change (CC).md",
+            "file": "Reinforcement Learning/Algorithms/RL algorithm list.md",
             "mode": "preview"
           }
         }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332
+    "width": 340
   },
   "right": {
     "id": "93f85f7f755f7ace",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Climate Change/Climate Change (CC).md",
+                "file": "Reinforcement Learning/Algorithms/RL algorithm list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7f16dd45ea2c8533",
+  "active": "e45b7c266d6d160b",
   "lastOpenFiles": [
-    "Climate Change/Climate Change (CC).md",
-    "Climate Change/Global Warming.md",
-    "Climate Change/Net-zero.md",
-    "Climate Change/Greenhouse Gases (GHG).md",
-    "Climate Change/Global Warming Potential (GWP).md",
-    "Untitled.md",
-    "Climate Change/Mitigation/Mitigation in land use and argiculture.md",
-    "Climate Change/Mitigation/Mitigation in energy sector.md",
-    "Climate Change/Mitigation/Mitigation total GHG.md",
-    "Integrated Assessment Model (IAM).md"
+    "Reinforcement Learning/Algorithms/RL algorithm list.md",
+    "Reinforcement Learning/Algorithms/Generic/BCQ (Batch-Constrained Q-learning).md",
+    "Reinforcement Learning/Algorithms/MARL/QMIX (Q Mixing).md",
+    "Reinforcement Learning/Algorithms/Generic/DQN (Deep Q-Network).md",
+    "Reinforcement Learning/Algorithms/MARL/MABCQ (Multi-agent BCQ).md",
+    "Others/Food for thought.md",
+    "Others/A trivial difference can blow up into a chaos.md",
+    "Reinforcement Learning/Known MDP/Adaptive Dynamic Programming (ADP).md",
+    "Reinforcement Learning/Bayesian Reinforcement Learning.md",
+    "Reinforcement Learning/Imitation Learning.md"
   ]
 }

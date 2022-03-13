@@ -1,7 +1,7 @@
 {
-  "baseFontSize": 15,
+  "baseFontSize": 13,
   "theme": "moonstone",
-  "cssTheme": "Deep Work",
+  "cssTheme": "Minimal",
   "translucency": false,
   "enabledCssSnippets": [
     "MyFont"

@@ -7,5 +7,5 @@ $$\theta \leftarrow \theta + \alpha \nabla \log \tilde{\pi}(a \mid s, \theta) G_
 where $G_t$ is the tracking avaraged return.
 
 ***Pseudocode***:
-![400](../resources/REINFORCE.png)
+![400](REINFORCE.PNG)
 where $v_t$ is alternative notation for $G_t$.

@@ -9,7 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reinforcement Learning/Algorithms/RL algorithm list.md",
+            "file": "Statistical ML/Maximum A Posteriori (MAP).md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "9536b8bfd53e2453",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Statistical ML/Bayesian Learning.md",
             "mode": "preview"
           }
         }
@@ -52,7 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340
+    "width": 276
   },
   "right": {
     "id": "93f85f7f755f7ace",
@@ -68,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reinforcement Learning/Algorithms/RL algorithm list.md",
+                "file": "Statistical ML/Maximum A Posteriori (MAP).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +99,15 @@
   },
   "active": "e45b7c266d6d160b",
   "lastOpenFiles": [
+    "Statistical ML/Maximum A Posteriori (MAP).md",
+    "Statistical ML/Bayesian Learning.md",
+    "Statistical ML/Bayesian Optimisation.md",
     "Reinforcement Learning/Algorithms/RL algorithm list.md",
     "Reinforcement Learning/Algorithms/Generic/BCQ (Batch-Constrained Q-learning).md",
     "Reinforcement Learning/Algorithms/MARL/QMIX (Q Mixing).md",
     "Reinforcement Learning/Algorithms/Generic/DQN (Deep Q-Network).md",
     "Reinforcement Learning/Algorithms/MARL/MABCQ (Multi-agent BCQ).md",
     "Others/Food for thought.md",
-    "Others/A trivial difference can blow up into a chaos.md",
-    "Reinforcement Learning/Known MDP/Adaptive Dynamic Programming (ADP).md",
-    "Reinforcement Learning/Bayesian Reinforcement Learning.md",
-    "Reinforcement Learning/Imitation Learning.md"
+    "Others/A trivial difference can blow up into a chaos.md"
   ]
 }

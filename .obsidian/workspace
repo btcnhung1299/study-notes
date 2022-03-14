@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Statistical ML/Maximum A Posteriori (MAP).md",
-            "mode": "preview"
+            "file": "Statistical ML/Variable Elimination.md",
+            "mode": "source"
           }
         }
       },
@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Statistical ML/Bayesian Learning.md",
+            "file": "Statistical ML/Variable Elimination.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical ML/Maximum A Posteriori (MAP).md",
+                "file": "Statistical ML/Variable Elimination.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +99,15 @@
   },
   "active": "e45b7c266d6d160b",
   "lastOpenFiles": [
+    "Statistical ML/Variable Elimination.md",
+    "Statistical ML/Maximum Likelihood Estimate (MLE).md",
+    "Reinforcement Learning/Algorithms/MARL/NDQ (Nearly Decomposable Q-functions).md",
+    "Reinforcement Learning/Algorithms/MARL/QMIX (Q Mixing).md",
     "Statistical ML/Maximum A Posteriori (MAP).md",
     "Statistical ML/Bayesian Learning.md",
-    "Statistical ML/Bayesian Optimisation.md",
-    "Reinforcement Learning/Algorithms/RL algorithm list.md",
-    "Reinforcement Learning/Algorithms/Generic/BCQ (Batch-Constrained Q-learning).md",
-    "Reinforcement Learning/Algorithms/MARL/QMIX (Q Mixing).md",
-    "Reinforcement Learning/Algorithms/Generic/DQN (Deep Q-Network).md",
-    "Reinforcement Learning/Algorithms/MARL/MABCQ (Multi-agent BCQ).md",
-    "Others/Food for thought.md",
-    "Others/A trivial difference can blow up into a chaos.md"
+    "Statistics & Probabilities/Maximum Likelihood Estimation (MLE).md",
+    "Statistics & Probabilities/Frequentist versus Bayesian.md",
+    "Statistics & Probabilities/Conditional Independence.md",
+    "Statistics & Probabilities/Binomial Distribution.md"
   ]
 }

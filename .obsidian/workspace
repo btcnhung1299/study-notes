@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Statistical ML/Variable Elimination.md",
+            "file": "Statistics & Probabilities/Importance Sampling.md",
             "mode": "source"
           }
         }
@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Statistical ML/Variable Elimination.md",
+            "file": "Statistics & Probabilities/Importance Sampling.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistical ML/Variable Elimination.md",
+                "file": "Statistics & Probabilities/Importance Sampling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +99,7 @@
   },
   "active": "e45b7c266d6d160b",
   "lastOpenFiles": [
+    "Statistics & Probabilities/Importance Sampling.md",
     "Statistical ML/Variable Elimination.md",
     "Statistical ML/Maximum Likelihood Estimate (MLE).md",
     "Reinforcement Learning/Algorithms/MARL/NDQ (Nearly Decomposable Q-functions).md",
@@ -107,7 +108,6 @@
     "Statistical ML/Bayesian Learning.md",
     "Statistics & Probabilities/Maximum Likelihood Estimation (MLE).md",
     "Statistics & Probabilities/Frequentist versus Bayesian.md",
-    "Statistics & Probabilities/Conditional Independence.md",
-    "Statistics & Probabilities/Binomial Distribution.md"
+    "Statistics & Probabilities/Conditional Independence.md"
   ]
 }

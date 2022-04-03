@@ -4,23 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "e45b7c266d6d160b",
+        "id": "2a3fb6cced2cd4f7",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Statistics & Probabilities/Importance Sampling.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       },
       {
-        "id": "9536b8bfd53e2453",
+        "id": "5b21bcac81933c36",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Statistics & Probabilities/Importance Sampling.md",
+            "file": "Reinforcement Learning/Key Concepts/Partial-Observable MDP (POMDP).md",
             "mode": "preview"
           }
         }
@@ -79,7 +76,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics & Probabilities/Importance Sampling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +93,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e45b7c266d6d160b",
+  "active": "2a3fb6cced2cd4f7",
   "lastOpenFiles": [
-    "Statistics & Probabilities/Importance Sampling.md",
-    "Statistical ML/Variable Elimination.md",
-    "Statistical ML/Maximum Likelihood Estimate (MLE).md",
-    "Reinforcement Learning/Algorithms/MARL/NDQ (Nearly Decomposable Q-functions).md",
-    "Reinforcement Learning/Algorithms/MARL/QMIX (Q Mixing).md",
-    "Statistical ML/Maximum A Posteriori (MAP).md",
-    "Statistical ML/Bayesian Learning.md",
-    "Statistics & Probabilities/Maximum Likelihood Estimation (MLE).md",
-    "Statistics & Probabilities/Frequentist versus Bayesian.md",
-    "Statistics & Probabilities/Conditional Independence.md"
+    "Untitled.md",
+    "Reinforcement Learning/Key Concepts/Markov Game (MG), or stochastic game.md",
+    "Reinforcement Learning/Key Concepts/State in environment viewpoint, Observation in agent viewpoint.md",
+    "Reinforcement Learning/Key Concepts/Partial-Observable MDP (POMDP).md",
+    "Reinforcement Learning/Key Concepts/State-value Function, or Utility.md",
+    "Reinforcement Learning/Key Concepts/Markov Decision Process (MDP).md",
+    "Reinforcement Learning/Key Concepts/Matrix Game.md",
+    "Reinforcement Learning/Multi-agent Reinforcement Learning (MARL).md",
+    "Reinforcement Learning/Algorithms/RL algorithm list.md",
+    "Reinforcement Learning/Algorithms/MARL/MAAC (Multi-Actor-Attention-critic).md"
   ]
 }

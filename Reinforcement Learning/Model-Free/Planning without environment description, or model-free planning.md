@@ -1,5 +1,5 @@
 #### Description
-We want to plan our policy $\pi$ such that it is optimal in the environment, which we have no information about the [[Markov Decision Process]] behind it. At the same time, the optimal policy must satisfy the Bellman Optimality Equation (see [[Bellman Equation]]).
+We want to plan our policy $\pi$ such that it is optimal in the environment, which we have no information about the [[Markov Decision Process (MDP)]] behind it. At the same time, the optimal policy must satisfy the Bellman Optimality Equation (see [[Bellman Equation]]).
 
 #### Approaches
 

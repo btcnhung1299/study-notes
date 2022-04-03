@@ -1,5 +1,5 @@
 #### Description
-Given a policy, we want to **predict** [[Value Function]] while having no information about the [[Markov Decision Process]] behind the environment.
+Given a policy, we want to **predict** [[Value Function]] while having no information about the [[Markov Decision Process (MDP)]] behind the environment.
 
 #### Algorithm
 **A. Description**

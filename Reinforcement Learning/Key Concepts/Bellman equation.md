@@ -66,4 +66,4 @@ Bellman equation states that the [[Value Function]] of a state (and action) is t
 	
 	Note: Alternatively, we can derive above equation based on $V_*(s) = \max_{a \in \mathcal{A}} Q_*(s,a)$
 
-> Observation: The optimality equation involves non-linear operation (i.e. $\max$) and thus, there is no closed form solution. However, we can use iterative methods in [[Planning with given environment description using Dynamic Programming]] to find the optimal value function (and thus optimal policy) in a known [[Markov Decision Process]].
+> Observation: The optimality equation involves non-linear operation (i.e. $\max$) and thus, there is no closed form solution. However, we can use iterative methods in [[Planning with given environment description using Dynamic Programming]] to find the optimal value function (and thus optimal policy) in a known [[Markov Decision Process (MDP)]].

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reinforcement Learning/Key Concepts/state-value function (utility).md",
+            "file": "Reinforcement Learning/Key Concepts/discount factor.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reinforcement Learning/Key Concepts/state-value function (utility).md",
+                "file": "Reinforcement Learning/Key Concepts/discount factor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,11 +99,11 @@
   },
   "active": "2a3fb6cced2cd4f7",
   "lastOpenFiles": [
+    "Reinforcement Learning/Key Concepts/discount factor.md",
     "Reinforcement Learning/Key Concepts/state-value function (utility).md",
     "Reinforcement Learning/Model-Free/Epsilon-greedy Policy Improvement.md",
     "Reinforcement Learning/Model-Free/eligibility traces.md",
     "Reinforcement Learning/Algorithms/List of RL algorithms.md",
-    "Reinforcement Learning/Key Concepts/discount factor.md",
     "Reinforcement Learning/Key Concepts/Bellman equation.md",
     "Reinforcement Learning/Key Concepts/value function.md",
     "Reinforcement Learning/Key Concepts/state (in env) or observation (in agent).md",

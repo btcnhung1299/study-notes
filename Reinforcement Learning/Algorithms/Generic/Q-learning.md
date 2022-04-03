@@ -1,4 +1,4 @@
-At first glance, Q-Learning bears a great resemblance to [[SARSA]] as it also uses the idea of [[Policy Iteration]] with no known [[Markov Decision Process]]. The difference between the two lies in the fact that we do not bootstrap based on the action suggested by the policy $\pi$ but (with oracle intelligence) the optimal action among the feasible ones of the policy.
+At first glance, Q-Learning bears a great resemblance to [[SARSA]] as it also uses the idea of [[Policy Iteration]] with no known [[Markov Decision Process (MDP)]]. The difference between the two lies in the fact that we do not bootstrap based on the action suggested by the policy $\pi$ but (with oracle intelligence) the optimal action among the feasible ones of the policy.
 
 That means, Q-Learning iteratively runs two consecutive steps:
 

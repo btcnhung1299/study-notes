@@ -1,4 +1,4 @@
-Vanilla algorithm that attempts to directly apply [[Policy Iteration]] with no known [[Markov Decision Process]]. SARSA iteratively runs two consecutive steps:
+Vanilla algorithm that attempts to directly apply [[Policy Iteration]] with no known [[Markov Decision Process (MDP)]]. SARSA iteratively runs two consecutive steps:
 - Policy Evaluation: use [[Temporal-Difference (TD) Policy Evaluation]] to bootstrap [[Action-value Function, or Q-function]], i.e.
 	$$Q_\pi(S_t, A_t) \leftarrow Q_\pi(S_t, A_t) + \alpha(R_{t+1} + \gamma Q_\pi(S_{t+1}, A_{t+1}) - Q_\pi(S_t, A_t))$$
 	

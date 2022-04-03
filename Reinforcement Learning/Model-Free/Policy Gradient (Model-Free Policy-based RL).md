@@ -1,8 +1,8 @@
-Assume that policy can be approximatedly represented as with [[Value Function]] by [[Value Function Approximation]], we consider the parameteric policy
+Assume that policy can be approximatedly represented as with [[value function]] by [[Value Function Approximation]], we consider the parameteric policy
 $$\tilde{\pi}(a \mid s, \theta) \approx \pi_\theta(a \mid s)$$
 
 ## Objective Function
-A good policy is a policy that gives maximum [[Value Function]], or expected [[Return as cumulative onward reward]]. Hence, we define our objective function is to maximize the [[Value Function]] and use **gradient ascent** to solve.
+A good policy is a policy that gives maximum [[value function]], or expected [[return (cumulative reward)]]. Hence, we define our objective function is to maximize the [[value function]] and use **gradient ascent** to solve.
 
 - In deterministic environment, we can use value function from the initial state $S_t$ or "start value".
 	$$J(\theta) = V_\tilde{\pi}(S_1)$$
@@ -22,7 +22,7 @@ A good policy is a policy that gives maximum [[Value Function]], or expected [[R
 	$$\nabla_\theta J(\theta) = \mathbb{E}_{\tilde{\pi}}[ \nabla \log \tilde{\pi}(a \mid s, \theta) Q_\pi(s, a) ]$$
 	
 ### Proof
-- First, we expand the [[State-value Function, or Utility]] by [[Action-value Function, or Q-function]]:
+- First, we expand the [[state-value function (utility)]] by [[action-value function (Q-function)]]:
 $$\begin{align}
 	\nabla_\theta J(\theta) 
 	&= \nabla_\theta \sum_{s \in \mathcal{S}} d_\tilde{\pi}(s) V_\tilde{\pi}(s) \\
@@ -57,7 +57,7 @@ $$\begin{align}
 &= 0
 \end{align}$$
 
-[[State-value Function, or Utility]] can serve as such baseline, resulting in [[Advantage Function]].
+[[state-value function (utility)]] can serve as such baseline, resulting in [[advantage function]].
 
 ---
 # FAQ

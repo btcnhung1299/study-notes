@@ -2,10 +2,10 @@
 
 Value function measures the expected return given the current information. Based on the type of initial information, value function is formulated as
 
-- [[State-value Function, or Utility]], $V(s) = \mathbb{E}[G_t \mid S_t = s]$
-- [[Action-value Function, or Q-function]], $Q(s,a) = \mathbb{E}[G_t \mid S_t = s, A_t = a]$
+- [[state-value function (utility)]], $V(s) = \mathbb{E}[G_t \mid S_t = s]$
+- [[action-value function (Q-function)]], $Q(s,a) = \mathbb{E}[G_t \mid S_t = s, A_t = a]$
 
-where $G_t$ is [[Return as cumulative onward reward]] at timestep $t$.
+where $G_t$ is [[return (cumulative reward)]] at timestep $t$.
 
 ## Connection between value functions
 

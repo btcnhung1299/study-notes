@@ -9,7 +9,7 @@ Issues:
 
 ## Non-stationary transition dynamics
 
-We start by deriving [[Bellman Equation]] in fully-observable [[Markov Decision Process (MDP)]] and proceed to partially-observable case. The later is more realistic as agents only obtain their own observations $o_i$ rather than the full state $s$ in the common centralised training decentralised execution settings.
+We start by deriving [[Bellman equation]] in fully-observable [[Markov Decision Process (MDP)]] and proceed to partially-observable case. The later is more realistic as agents only obtain their own observations $o_i$ rather than the full state $s$ in the common centralised training decentralised execution settings.
 
 1. **Fully-observable MDP (FOMDP)**: the Bellman optimality equation for a single agent $a$ given the policies of other agents
 	$$Q^*(s, u_a | \pi_{-a}) 

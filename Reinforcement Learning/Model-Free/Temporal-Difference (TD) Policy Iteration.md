@@ -1,4 +1,4 @@
-Used in [[Planning without environment description, or model-free planning]] to find optimal [[Policy]] by iteratively doing [[Temporal-Difference (TD) Policy Evaluation]] in [[Model-Free Policy Iteration (Model-Free Value-based RL)]].
+Used in [[Planning without environment description, or model-free planning]] to find optimal [[policy]] by iteratively doing [[Temporal-Difference (TD) Policy Evaluation]] in [[Model-Free Policy Iteration (Model-Free Value-based RL)]].
 
 ## Algorithms
  

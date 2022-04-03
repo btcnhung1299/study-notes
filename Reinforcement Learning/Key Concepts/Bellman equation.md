@@ -1,10 +1,10 @@
-Bellman equation states that the [[Value Function]] of a state (and action) is the sum of its immediate reward and the upcoming rewards (either by expectation or optimal ones, which gives raise to Bellman Expectation and Bellman Optimality Equation).
+Bellman equation states that the [[value function]] of a state (and action) is the sum of its immediate reward and the upcoming rewards (either by expectation or optimal ones, which gives raise to Bellman Expectation and Bellman Optimality Equation).
 
-> Application: Bellman equation can be used in prediction/planning (by using Bellman Expectation Equation to find the latent [[Value Function]]) and control (to find the optimal [[Policy]] by using Bellman Optimality Equation)
+> Application: Bellman equation can be used in prediction/planning (by using Bellman Expectation Equation to find the latent [[value function]]) and control (to find the optimal [[policy]] by using Bellman Optimality Equation)
 
 ## Bellman Expectation Equation
 
-- From the definition of [[Action-value Function, or Q-function]]:
+- From the definition of [[action-value function (Q-function)]]:
 	$$\begin{align}
 	Q(S_t = s, A_t = a)
 	&= \mathbb{E} [G_t \mid S_t = s, A_t = a] \\
@@ -24,7 +24,7 @@ Bellman equation states that the [[Value Function]] of a state (and action) is t
 	$$
 	where $P^a_{ss^{\prime}}$ refers to the [[transition probability]] from state $s$ to $s^{\prime}$ with action $a$.
 
-- From the definition of [[State-value Function, or Utility]]:
+- From the definition of [[state-value function (utility)]]:
 	$$\begin{align}
 	V(S_t = s) 
 	&= \mathbb{E} [G_t \mid S_t =s] \\
@@ -44,11 +44,11 @@ Bellman equation states that the [[Value Function]] of a state (and action) is t
 
 	**Note**: Alternatively, we can derive above equation based on $V_\pi(s) = \sum_{a \in \mathcal{A}} \pi(a \mid s) Q_\pi(s,a)$.
 
-> Observation: The [[Value Function]] of the current state (and action) is, in fact, dependent on the value of the next state.
+> Observation: The [[value function]] of the current state (and action) is, in fact, dependent on the value of the next state.
 
 ## Bellman Optimality Equation
 
-- In [[Action-value Function, or Q-function]]:
+- In [[action-value function (Q-function)]]:
 	$$\begin{align}
 	Q_*(S_t = s, A_t = a) &= \max_{\pi} Q_\pi(s,a) \\
 	&= R_{t+1}(s,a) + \gamma \sum_{s^{\prime} \in \mathcal{S}} P_{ss^{\prime}}^a V_*(s^{\prime}) \\
@@ -56,7 +56,7 @@ Bellman equation states that the [[Value Function]] of a state (and action) is t
 	\end{align}
 	$$
 
-- In [[State-value Function, or Utility]]:
+- In [[state-value function (utility)]]:
 	$$\begin{align}
 	V_{\pi^*}(S_t = s) &= \max_\pi V_\pi(s) \\
 	&= \max_{a  \in \mathcal{A}} 

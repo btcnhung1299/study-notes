@@ -18,7 +18,7 @@ R_t &= \mathbb{E}[R_{t+1} \mid S_t=s, A_t=a] \\
 Return at timestep $t$, denoted as $G_t$ (abbreviated for "goal"), is the cumulative rewards from $t$ onwards. Typically, we consider the (infinite) discounted return with [[discount factor]] $\gamma$
 $$G_t = R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + \dots = \sum_{k=0}^{\infty} \gamma^k R_{t+k+1}$$
 
-Particularly, the finite discounted return over [[Episode, or Trajectory]] $\tau$ is written as
+Particularly, the finite discounted return over [[episode (trajectory)]] $\tau$ is written as
 $$G(\tau) = \sum_{t=0}^{T} \gamma^t R_{t+1}$$
 
 ---

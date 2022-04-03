@@ -1,16 +1,16 @@
 #### Description
-Given a policy, we want to **predict** [[Value Function]] while having no information about the [[Markov Decision Process (MDP)]] behind the environment.
+Given a policy, we want to **predict** [[value function]] while having no information about the [[Markov Decision Process (MDP)]] behind the environment.
 
 #### Algorithm
 **A. Description**
-- Directly keep a running average of total [[State-value Function, or Utility]] at each state in different trials or [[Episode, or Trajectory]].  By the law of large number, the more observations we get for this value at state $s$, the closer it gets to the true expectation of the target value function at that state.
+- Directly keep a running average of total [[state-value function (utility)]] at each state in different trials or [[episode (trajectory)]].  By the law of large number, the more observations we get for this value at state $s$, the closer it gets to the true expectation of the target value function at that state.
 
 > Observation: We need to see **complete episodes** in order to get the true return at each state, which is infeasible with infinite process or offline learning (mostly).
 
 **Note 1**: For each state, we can either consider its first appearance (result in *First-visit MC policy evaluation*) or its every appearance (result in *Every-visit MC policy evaluation*) in tracking.
 
-**Note 2**: For [[Action-value Function, or Q-function]], we will consider (state, action) pairs instead of state.
-> Application: In [[Model-Free Policy Iteration (Model-Free Value-based RL)]], we will take greedy actions with respect to [[Action-value Function, or Q-function]] instead of [[State-value Function, or Utility]] because we do not have $P^a_{ss^\prime}$.
+**Note 2**: For [[action-value function (Q-function)]], we will consider (state, action) pairs instead of state.
+> Application: In [[Model-Free Policy Iteration (Model-Free Value-based RL)]], we will take greedy actions with respect to [[action-value function (Q-function)]] instead of [[state-value function (utility)]] because we do not have $P^a_{ss^\prime}$.
 
 **Note 3**: Mean tracking can be done online with incremental method, see below.
 
@@ -41,7 +41,7 @@ An alternative way to see the above update is
 $$V(S_t) \leftarrow (1 - \alpha) V(S_t) + \alpha G_t$$
 
 **Disadvantage**:
-- Violate the nature of states, or [[Bellman Equation]]: states are not independent from each other -> slow converge
+- Violate the nature of states, or [[Bellman equation]]: states are not independent from each other -> slow converge
 
 ---
 ### FAQ

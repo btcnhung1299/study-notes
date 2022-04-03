@@ -1,4 +1,4 @@
-Partial-observable MDP (POMDP) assumes the underlying [[Markov Decision Process (MDP)]]. However, agents in POMDP cannot observe the underlying states but its observations, hence "partial-observable" (see [[State in environment viewpoint, Observation in agent viewpoint]]).
+Partial-observable MDP (POMDP) assumes the underlying [[Markov Decision Process (MDP)]]. However, agents in POMDP cannot observe the underlying states but its observations, hence "partial-observable" (see [[state (in env) or observation (in agent)]]).
 
 A POMDP can be described by a 7-element tuple
 $$\langle \mathcal{S}, \mathcal{A}, R, T, \Omega, O, \gamma \rangle$$

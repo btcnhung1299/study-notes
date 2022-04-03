@@ -1,6 +1,6 @@
 **Ultimate goal**: In reinforcement learning problem, we want the agent to learn to act in order to maximise its goal. That is, for different type of RL, we want the following:
-- Passive RL (fixed [[Policy]] $\pi$): learn the [[State-value Function, or Utility]] $U$
-- Active RL: learn the [[State-value Function, or Utility]] $U$ in association with the policy $\pi$ (that is balanced between exploitation and exploration)
+- Passive RL (fixed [[policy]] $\pi$): learn the [[state-value function (utility)]] $U$
+- Active RL: learn the [[state-value function (utility)]] $U$ in association with the policy $\pi$ (that is balanced between exploitation and exploration)
 
 **Reinforcement learning algorithms**:
 

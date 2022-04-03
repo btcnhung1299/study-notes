@@ -4,7 +4,7 @@ A MDP can be described by a 5-element tuple
 $$\langle \mathcal{S}, \mathcal{A}, R, P, \gamma \rangle$$
 - $\mathcal{S}$ is the **state** space
 - $\mathcal{A}$ is the **action** space
-- $R: \mathcal{S} \times \mathcal{A} \rightarrow \mathbb{R}$ is the **reward** function that, together with [[discount factor]] $\gamma \in [0, 1)$, specifies [[return as cumulative onward reward]]
+- $R: \mathcal{S} \times \mathcal{A} \rightarrow \mathbb{R}$ is the **reward** function that, together with [[discount factor]] $\gamma \in [0, 1)$, specifies [[return (cumulative reward)]]
 - $P$ is the so-called **transition probability** function  $p(s^\prime, r|s, a)= \Pr \{S_{t+1} = s^\prime, R_{t+1} = r | S_t = s, A_t =a\}$.
 	<sub>This function has [[Markov property]], i.e. the next state $S_{t+1}$ (and its associated reward $R_{t+1}$) is fully determined by the action and the state in which that action is taken.</sub>
 

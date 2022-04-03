@@ -7,8 +7,11 @@
         "id": "2a3fb6cced2cd4f7",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Reinforcement Learning/Key Concepts/state-value function (utility).md",
+            "mode": "preview"
+          }
         }
       },
       {
@@ -76,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Reinforcement Learning/Key Concepts/state-value function (utility).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,15 +99,15 @@
   },
   "active": "2a3fb6cced2cd4f7",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Reinforcement Learning/Key Concepts/Markov Game (MG), or stochastic game.md",
-    "Reinforcement Learning/Key Concepts/State in environment viewpoint, Observation in agent viewpoint.md",
-    "Reinforcement Learning/Key Concepts/Partial-Observable MDP (POMDP).md",
-    "Reinforcement Learning/Key Concepts/State-value Function, or Utility.md",
-    "Reinforcement Learning/Key Concepts/Markov Decision Process (MDP).md",
-    "Reinforcement Learning/Key Concepts/Matrix Game.md",
-    "Reinforcement Learning/Multi-agent Reinforcement Learning (MARL).md",
-    "Reinforcement Learning/Algorithms/RL algorithm list.md",
-    "Reinforcement Learning/Algorithms/MARL/MAAC (Multi-Actor-Attention-critic).md"
+    "Reinforcement Learning/Key Concepts/state-value function (utility).md",
+    "Reinforcement Learning/Model-Free/Epsilon-greedy Policy Improvement.md",
+    "Reinforcement Learning/Model-Free/eligibility traces.md",
+    "Reinforcement Learning/Algorithms/List of RL algorithms.md",
+    "Reinforcement Learning/Key Concepts/discount factor.md",
+    "Reinforcement Learning/Key Concepts/Bellman equation.md",
+    "Reinforcement Learning/Key Concepts/value function.md",
+    "Reinforcement Learning/Key Concepts/state (in env) or observation (in agent).md",
+    "Reinforcement Learning/Key Concepts/Markov Game (MG, stochastic game).md",
+    "Reinforcement Learning/Key Concepts/Markov Decision Process (MDP).md"
   ]
 }

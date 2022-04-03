@@ -1,6 +1,6 @@
 **Original paper**: [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)
 
-Basically, DQN (Deep Q-Network) is [[Q-learning]] with [[Value Function Approximation]] applied to [[Action-value Function, or Q-function]]. DQN is enhanced with **experience replay** and **target network** to make the training with deep neural networks more stable.
+Basically, DQN (Deep Q-Network) is [[Q-learning]] with [[Value Function Approximation]] applied to [[action-value function (Q-function)]]. DQN is enhanced with **experience replay** and **target network** to make the training with deep neural networks more stable.
 
 - In experience replay, all samples (i.e. a tuple of non-terminal <state, action, reward>) are pooled to a replay memory. A minibatch of samples are randomly chosen for optimization to break correlation among consecutive samples.
 

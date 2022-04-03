@@ -1,8 +1,8 @@
 ## Description
 Instead of table lookup, we can use (machine learning) models, parameterized by $\theta$, to apprioximate value function for
-- Each state ([[State-value Function, or Utility]])
+- Each state ([[state-value function (utility)]])
 	$$\tilde{V}(s, \theta) \approx V_\pi(s)$$
-- Each (state, action) pair ([[Action-value Function, or Q-function]])
+- Each (state, action) pair ([[action-value function (Q-function)]])
 	$$\tilde{Q}(s, a, \theta) \approx Q_\pi(s,a)$$
 	
 ## Objective function

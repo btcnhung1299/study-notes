@@ -1,5 +1,4 @@
-Markov Game (MG), or stochastic game, "extends game theory to [[Markov Decision Process (MDP)]]-like environments".
-> **Application**: MG is frequently used to mathematically describe the environment settings for [[Multi-agent Reinforcement Learning (MARL)]].
+Markov Game (MG), or stochastic game, applies game theory to [[Markov Decision Process (MDP)]] environments. MG is ideal to mathematically describe the environment settings for [[Multi-agent Reinforcement Learning (MARL)]].
 
 A MG can be described by a tuple
 $$\langle \mathcal{I}, \mathcal{S}, \{\mathcal{A}_i\}_{i=1}^k, \{R_i\}_{i=1}^k, \mathcal{T}, \gamma \rangle$$
@@ -10,6 +9,8 @@ $$\langle \mathcal{I}, \mathcal{S}, \{\mathcal{A}_i\}_{i=1}^k, \{R_i\}_{i=1}^k, 
 - $R_i: \mathcal{S} \times \mathcal{A}_1 \times ... \times \mathcal{A}_k \rightarrow \mathbb{R}$ is reward function of agent $i$
 - $T: \mathcal{S} \times \mathcal{A}_1 \times ... \times \mathcal{A}_k \rightarrow (0,1)$ is the state **transition dynamics**
 - $\gamma$ is [[discount factor]] ($0 \leq \gamma \lt 1$)
+
+We use $\mathbf{u} \in \mathcal{U}$ to denote joint action.
 
 # FAQ
 1. **Q**: Why it is called "stochastic game"?

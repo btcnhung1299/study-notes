@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reinforcement Learning/Key Concepts/discount factor.md",
-            "mode": "preview"
+            "file": "Natural Language Processing/Transformer.md",
+            "mode": "source"
           }
         }
       },
@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reinforcement Learning/Key Concepts/Partial-Observable MDP (POMDP).md",
+            "file": "Reinforcement Learning/Key Concepts/Markov Game (MG, stochastic game).md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reinforcement Learning/Key Concepts/discount factor.md",
+                "file": "Natural Language Processing/Transformer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +99,15 @@
   },
   "active": "2a3fb6cced2cd4f7",
   "lastOpenFiles": [
-    "Reinforcement Learning/Key Concepts/discount factor.md",
-    "Reinforcement Learning/Key Concepts/state-value function (utility).md",
-    "Reinforcement Learning/Model-Free/Epsilon-greedy Policy Improvement.md",
-    "Reinforcement Learning/Model-Free/eligibility traces.md",
-    "Reinforcement Learning/Algorithms/List of RL algorithms.md",
-    "Reinforcement Learning/Key Concepts/Bellman equation.md",
-    "Reinforcement Learning/Key Concepts/value function.md",
-    "Reinforcement Learning/Key Concepts/state (in env) or observation (in agent).md",
+    "Natural Language Processing/Transformer.md",
+    "Others/A trivial difference can blow up into a chaos.md",
+    "Others/Random notes.md",
+    "Untitled.md",
+    "Federated Learning/Ideas.md",
+    "Reinforcement Learning/Others/Ideas.md",
     "Reinforcement Learning/Key Concepts/Markov Game (MG, stochastic game).md",
-    "Reinforcement Learning/Key Concepts/Markov Decision Process (MDP).md"
+    "Reinforcement Learning/Key Concepts/Partial-Observable MDP (POMDP).md",
+    "Reinforcement Learning/Others/Prisoner's Dilemma.md",
+    "Reinforcement Learning/Model-Free/Actor-Critic.md"
   ]
 }

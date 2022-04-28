@@ -1,0 +1,2 @@
+When reward function is explicitly modelled, the agent can take advantage of it to maximise its cumulative reward instead of actually learning.
+For example, suppose the task is to pick up the trash as much as possible. The agent can cheat by throw collected trash to the ground and pick it up over and over agent.

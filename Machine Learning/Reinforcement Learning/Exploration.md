@@ -1,0 +1,1 @@
+Frequently policy-based algorithm lacks exploration because it acts solely upon specified policy. One solution is using [[Entropy]] term

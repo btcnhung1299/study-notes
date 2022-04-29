@@ -25,7 +25,7 @@ A good policy is a policy that gives maximum [[value function]], or expected [[r
 
 
 ### Proof
-- First, we expand the [[state-value function (utility)]] by [[action-value function (Q-function)]]:
+- First, we expand the [[state-value function (utility)]] by [[value function]]:
 $$\begin{align}
 	\nabla_\theta J(\theta) 
 	&= \nabla_\theta \sum_{s \in \mathcal{S}} d_\tilde{\pi}(s) V_\tilde{\pi}(s) \\

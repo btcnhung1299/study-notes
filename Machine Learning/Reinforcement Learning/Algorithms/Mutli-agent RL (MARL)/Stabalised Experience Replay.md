@@ -5,7 +5,7 @@ Stabalised experience replay [1] modifies vanilla experience replay (in [[DQN]])
 ## Flow
 
 ## Novelty
-<sub>In independent Q-learning (IQL), each agent learns an optimal policy based on [[action-value function (Q-function)]] conditioned on its own observations that satisfies the [[Bellman equation]]:
+<sub>In independent Q-learning (IQL), each agent learns an optimal policy based on [[value function]] conditioned on its own observations that satisfies the [[Bellman equation]]:
 	$$Q^*(s, u_a | \pi_{-a}) = \sum_{\mathbf{u}_a} \pi_{-a}(-\mathbf{u}_a |s) \left[ r + \gamma \sum P(s^\prime | s, u_a, -\mathbf{u}_a) \max_{u^\prime_a} Q^*_a(s^\prime, u^\prime_a) \right]$$
 	The term $\pi_{-a}(\mathbf{u}_{-a}|s)$ accounts for the non-stationary because it changes when the policies of other agents evolve over time.</sub>
 	

@@ -4,7 +4,7 @@ Bellman equation states that the [[value function]] of a state (and action) is t
 
 ## Bellman Expectation Equation
 
-- From the definition of [[action-value function (Q-function)]]:
+- From the definition of [[value function]]:
 	$$\begin{align}
 	Q(S_t = s, A_t = a)
 	&= \mathbb{E} [G_t \mid S_t = s, A_t = a] \\
@@ -48,7 +48,7 @@ Bellman equation states that the [[value function]] of a state (and action) is t
 
 ## Bellman Optimality Equation
 
-- In [[action-value function (Q-function)]]:
+- In [[value function]]:
 	$$\begin{align}
 	Q_*(S_t = s, A_t = a) &= \max_{\pi} Q_\pi(s,a) \\
 	&= R_{t+1}(s,a) + \gamma \sum_{s^{\prime} \in \mathcal{S}} P_{ss^{\prime}}^a V_*(s^{\prime}) \\

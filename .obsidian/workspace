@@ -4,14 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "603fd418dcd47a70",
+        "id": "80ea185e78e3f682",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Mathematics/Abstract Algebra/Injection, Surjection, Bijection.md",
+            "file": "Machine Learning/Reinforcement Learning/Key Concepts/value function.md",
             "mode": "preview"
           }
+        }
+      },
+      {
+        "id": "dbd7da5b77e20197",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -52,7 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 151
+    "width": 241
   },
   "right": {
     "id": "93f85f7f755f7ace",
@@ -68,7 +76,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Abstract Algebra/Injection, Surjection, Bijection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +93,16 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "603fd418dcd47a70",
+  "active": "dbd7da5b77e20197",
   "lastOpenFiles": [
-    "Mathematics/Abstract Algebra/Injection, Surjection, Bijection.md",
-    "Mathematics/Abstract Algebra/Number sets.md",
-    "Mathematics/Abstract Algebra/Abelian (communitative) group.md",
-    "Mathematics/Abstract Algebra/Ring.md",
-    "Mathematics/Abstract Algebra/Binary operation properties (communicative, associative, identiy, inverse).md",
-    "Words of Wisdom.md",
-    "README.md",
-    "Machine Learning/Reinforcement Learning/Algorithms/MARL/Value Decomposition Network (VDN).md",
-    "Mathematics/Logic/Modus Tollen (MT).md",
-    "Mathematics/Statistics & Probabilities/Markov Chain.md"
+    "Machine Learning/Reinforcement Learning/Key Concepts/state-value function (utility).md",
+    "Machine Learning/Reinforcement Learning/Key Concepts/value function.md",
+    "Machine Learning/Reinforcement Learning/Key Concepts/TD-error.md",
+    "Machine Learning/Reinforcement Learning/Model-Free/Temporal-Difference (TD) Policy Evaluation.md",
+    "Machine Learning/Reinforcement Learning/Algorithms/Mutli-agent RL (MARL)/COMA (Counterfactual Multi-agent).md",
+    "Machine Learning/Reinforcement Learning/Algorithms/Mutli-agent RL (MARL)/Independent Q-learning (IQL).md",
+    "Machine Learning/Reinforcement Learning/Others/Nash equilibrium.md",
+    "Machine Learning/Reinforcement Learning/Others/Prisoner's Dilemma.md",
+    "Machine Learning/Reinforcement Learning/Others/Ideas.md"
   ]
 }

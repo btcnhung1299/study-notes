@@ -9,8 +9,8 @@ Given a policy, we want to **predict** [[value function]] while having no inform
 
 **Note 1**: For each state, we can either consider its first appearance (result in *First-visit MC policy evaluation*) or its every appearance (result in *Every-visit MC policy evaluation*) in tracking.
 
-**Note 2**: For [[action-value function (Q-function)]], we will consider (state, action) pairs instead of state.
-> Application: In [[Model-Free Policy Iteration (Model-Free Value-based RL)]], we will take greedy actions with respect to [[action-value function (Q-function)]] instead of [[state-value function (utility)]] because we do not have $P^a_{ss^\prime}$.
+**Note 2**: For [[value function]], we will consider (state, action) pairs instead of state.
+> Application: In [[Model-Free Policy Iteration (Model-Free Value-based RL)]], we will take greedy actions with respect to [[value function]] instead of [[state-value function (utility)]] because we do not have $P^a_{ss^\prime}$.
 
 **Note 3**: Mean tracking can be done online with incremental method, see below.
 

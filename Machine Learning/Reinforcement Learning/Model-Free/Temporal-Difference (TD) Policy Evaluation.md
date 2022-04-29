@@ -13,10 +13,10 @@ Given a policy, we want to **predict** [[value function]] while having no inform
 
 > Observation: We don't need to see complete episodes as we replace the true return with our estimation. Therefore, it is compatible with infinite process and offline learning.
 
-**Note**: For [[action-value function (Q-function)]], we use the following formular:
-$$Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha(R_{t+1} + \gamma Q(S_{t+1}, A_{t+1} - Q(S_t, A_t))$$
+**Note**: For [[value function]], we use the following formular:
+$$Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha(R_{t+1} + \gamma Q(S_{t+1}, A_{t+1}) - Q(S_t, A_t))$$
 
-> Application: In [[Model-Free Policy Iteration (Model-Free Value-based RL)]], we will take greedy actions with respect to [[action-value function (Q-function)]] instead of [[state-value function (utility)]] because we do not have $P^a_{ss^\prime}$.
+> Application: In [[Model-Free Policy Iteration (Model-Free Value-based RL)]], we will take greedy actions with respect to [[value function]] instead of [[state-value function (utility)]] because we do not have $P^a_{ss^\prime}$.
 
 **B. Pseudocode**
 ![380](TDPrediction.png)

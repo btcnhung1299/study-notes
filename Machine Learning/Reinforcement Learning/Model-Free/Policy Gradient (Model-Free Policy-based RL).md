@@ -60,7 +60,7 @@ $$\begin{align}
 &= 0
 \end{align}$$
 
-[[state-value function (utility)]] can serve as such baseline, resulting in [[advantage function]].
+[[state-value function (utility)]] can serve as such baseline, resulting in [[Advantage function]].
 
 ---
 # FAQ

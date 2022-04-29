@@ -1,4 +1,4 @@
-A3C [1] is an asynchronous version of [[Actor-Critic]] method that acts on [[advantage function]] (i.e. the difference $Q_\pi(s,a) - V_\pi(s)$ or equivalent unbiased sample $R - V_\pi(s)$).
+A3C [1] is an asynchronous version of [[Actor-Critic]] method that acts on [[Advantage function]] (i.e. the difference $Q_\pi(s,a) - V_\pi(s)$ or equivalent unbiased sample $R - V_\pi(s)$).
 
 ### Components
 To asynchronize [[Actor-Critic]], which simultenously approximates actor $\pi(a \mid s)$ and critic $Q(s,a)$, it is necessary to keep track of local networks and global networks

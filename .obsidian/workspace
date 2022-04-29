@@ -6,20 +6,25 @@
       {
         "id": "80ea185e78e3f682",
         "type": "leaf",
+        "dimension": 46.54907975460122,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Machine Learning/Reinforcement Learning/Key Concepts/value function.md",
-            "mode": "preview"
+            "file": "Machine Learning/Reinforcement Learning/Key Concepts/Bellman equation.md",
+            "mode": "source"
           }
         }
       },
       {
         "id": "dbd7da5b77e20197",
         "type": "leaf",
+        "dimension": 53.45092024539877,
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Machine Learning/Reinforcement Learning/Key Concepts/Bellman equation.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -60,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241
+    "width": 190
   },
   "right": {
     "id": "93f85f7f755f7ace",
@@ -76,6 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Machine Learning/Reinforcement Learning/Key Concepts/Bellman equation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,16 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "dbd7da5b77e20197",
+  "active": "80ea185e78e3f682",
   "lastOpenFiles": [
-    "Machine Learning/Reinforcement Learning/Key Concepts/state-value function (utility).md",
+    "Machine Learning/Reinforcement Learning/Key Concepts/Bellman equation.md",
+    "Machine Learning/Reinforcement Learning/Key Concepts/Advantage function.md",
     "Machine Learning/Reinforcement Learning/Key Concepts/value function.md",
+    "Machine Learning/Reinforcement Learning/Key Concepts/state-value function (utility).md",
     "Machine Learning/Reinforcement Learning/Key Concepts/TD-error.md",
     "Machine Learning/Reinforcement Learning/Model-Free/Temporal-Difference (TD) Policy Evaluation.md",
     "Machine Learning/Reinforcement Learning/Algorithms/Mutli-agent RL (MARL)/COMA (Counterfactual Multi-agent).md",
     "Machine Learning/Reinforcement Learning/Algorithms/Mutli-agent RL (MARL)/Independent Q-learning (IQL).md",
     "Machine Learning/Reinforcement Learning/Others/Nash equilibrium.md",
-    "Machine Learning/Reinforcement Learning/Others/Prisoner's Dilemma.md",
-    "Machine Learning/Reinforcement Learning/Others/Ideas.md"
+    "Machine Learning/Reinforcement Learning/Others/Prisoner's Dilemma.md"
   ]
 }

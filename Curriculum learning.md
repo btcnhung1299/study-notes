@@ -1,0 +1,2 @@
+Instead of training on random samples, we train from easy samples and gradually increase the difficulty. Training in this fashion is referred to as curriculum learning.
+Interesting, curriculum learning closely relates to active learning and can be described as a boosting algorithm.

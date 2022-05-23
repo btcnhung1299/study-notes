@@ -1,0 +1,1 @@
+The Ising model consists of discrete variables at each vertex whose value ranged is either 1 or -1. Each spin at each vert3x interact with each other and the more they agree, the higher energy is. 

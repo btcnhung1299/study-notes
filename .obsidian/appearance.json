@@ -1,10 +1,10 @@
 {
   "baseFontSize": 13,
   "theme": "moonstone",
-  "cssTheme": "Minimal",
-  "translucency": false,
+  "cssTheme": "Atom",
   "enabledCssSnippets": [
-    "MyFont"
+    "Fonts"
   ],
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "translucency": false
 }

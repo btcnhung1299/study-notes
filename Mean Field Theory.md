@@ -1,0 +1,1 @@
+Approximate the interaction in the multi-agent system by considering the (n-1) agent system as the mean body. That way, the multi-agent system becomes the two body system.

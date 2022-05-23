@@ -1,0 +1,1 @@
+$x$ is called a fixed point of $f$ if and only if $f(x) = x$.

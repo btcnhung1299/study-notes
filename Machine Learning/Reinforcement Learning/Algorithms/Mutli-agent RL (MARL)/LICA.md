@@ -14,7 +14,7 @@ LICA (**L**earning **I**mplicit **C**redit **A**ssignment) [1] is a multi-agent 
 - On the other hand, the authors propose **adaptive entropy regularisation** to improve the exploration of the algorithm, which is inherent policy-based approach.
 
 ## Experimental settings
+![500](LICA.PNG)
 
-![3700](LICA.PNG)
 ---
 [1] [Learning Implicit Credit Assignment for Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2007.02529)

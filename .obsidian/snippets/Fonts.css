@@ -1,7 +1,4 @@
-.markdown-preview-view {
-    font-family: Roboto, sans-serif !important;
-}
-
-.markdown-source-view {
-    font-family: 'Roboto Mono', monospace !important;
+.nav-file-title, .nav-folder-title {
+    font-size: 12px;
+    padding: -1px;
 }

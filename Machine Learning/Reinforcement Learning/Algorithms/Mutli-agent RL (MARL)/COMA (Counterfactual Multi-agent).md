@@ -1,4 +1,4 @@
-COMA (Counterfactual Multi-agent) is an [[Actor-Critic]] algorithm that uses the so-called counterfactual baseline...
+COMA (Counterfactual Multi-agent) [1] is an [[Actor-Critic]] algorithm that uses the so-called counterfactual baseline...
 
 ## Components
 
@@ -9,3 +9,5 @@ COMA (Counterfactual Multi-agent) is an [[Actor-Critic]] algorithm that uses the
 	$$A^a(s,\mathbf{u}) = Q(s, \mathbf{u}) - \sum_{u'^a} \pi^a(u'^a | \tau^a) Q(s, \mathbf{u}^{-a}, u'^a)$$
 ## Novelty
 
+---
+[1] [Counterfactual Multi-Agent Policy Gradients](https://arxiv.org/abs/1705.08926)

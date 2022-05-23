@@ -35,5 +35,5 @@ A:
 
 ![350](MeanEvolvementMCTDPrediction.png)
 
-Q: How is the efficiency of TD compared to [[Adaptive Dynamic Programming (ADP)]]?
+Q: How is the efficiency of TD compared to [[Machine Learning/Reinforcement Learning/Adaptive Dynamic Programming (ADP)]]?
 A: As shown in [0], TD requires more trials to learn optimal policy. Yet, it requires less computation per observation.

@@ -1,8 +1,9 @@
 ## Group
-A group is a set with **a binary operation** that has associativity, identity and inverse element
+A group is a set with **a binary operation** that has associativity, identity and inverse element.
+For instance, $(\mathbb{Z}, +)$ is a group but $(\mathbb{Z}, \cdot)$ is not because the inverse element is not included in $\mathbb{Z}$ for most of elements.
 
 ## Field
-A field is a group with **two binary operations** (usually called addition and multiplication) where under each operation, the field is an [[Abelian (communitative) group]] and the two operations are related via distributive law, e.g. $a(b+c) = ab + ac$.
+A field is a group with **two binary operations** (usually called addition and multiplication) where under each operation, the field is an [[Abelian group]] and the two operations are related via distributive law, e.g. $a(b+c) = ab + ac$.
 
 Example: $\mathbb{Q}$, $\mathbb{C}$, and $\mathbb{R}$ are fundamental fields.
 

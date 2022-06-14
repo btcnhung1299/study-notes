@@ -25,4 +25,5 @@ where ![{\widehat {\rho }}](https://wikimedia.org/api/rest_v1/media/math/render/
 
 **Mean Field Theory**
 Fast Fourier Transform
-Euler’s formula: $e^{it}
+Euler’s formula: $e^{it}$
+

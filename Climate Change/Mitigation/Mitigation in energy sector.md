@@ -3,7 +3,7 @@ In energy sector, [[Greenhouse Gases (GHG)]] emission is defined via **Kaya iden
 $$F = P \times \frac{G}{P} \times \frac{E}{G} \times \frac{F}{E} \tag{1}$$
 where
 - $P$: global population
-- $G$: world GDP per capita, which is proxy for services consumed
+- $G$: world GDP, which is proxy for services consumed
 - $E$: global energy consumption
 - $F$: global $\mathrm{CO_2}$ emission
 

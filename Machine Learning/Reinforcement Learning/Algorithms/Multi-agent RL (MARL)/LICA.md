@@ -1,5 +1,15 @@
+1. [[#Abstract|Abstract]]
+1. [[#Description|Description]]
+	1. [[#Description#Components|Components]]
+	1. [[#Description#Flow|Flow]]
+	1. [[#Description#Novelty|Novelty]]
+	1. [[#Description#Experimental settings|Experimental settings]]
+
+
+# Abstract
 LICA (**L**earning **I**mplicit **C**redit **A**ssignment) [1] is a multi-agent [[Actor-Critic]] algorithm that uses hypernetwork as an implicit representation which is informatic for credit assignment problem.
 
+# Description
 ## Components
 
 ## Flow
@@ -13,8 +23,10 @@ LICA (**L**earning **I**mplicit **C**redit **A**ssignment) [1] is a multi-agent 
 - The author directly uses decentralised policies, i.e. policies of each agent, to optimise the joint action-value function.
 - On the other hand, the authors propose **adaptive entropy regularisation** to improve the exploration of the algorithm, which is inherent policy-based approach.
 
+
 ## Experimental settings
 ![500](LICA.PNG)
+
 
 ---
 [1] [Learning Implicit Credit Assignment for Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2007.02529)

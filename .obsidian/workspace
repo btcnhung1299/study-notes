@@ -1,16 +1,16 @@
 {
   "main": {
-    "id": "d5366200510239b3",
+    "id": "f93a24071287b576",
     "type": "split",
     "children": [
       {
-        "id": "fe735b39ef9161d8",
+        "id": "a28d4ff0ef4e2d43",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Mathematics/Statistics & Probabilities/Marginal, Joint, and Conditional Probabilities.md",
-            "mode": "preview"
+            "file": "Generic DL/Basic blocks/Gumbel-Softmax.md",
+            "mode": "source"
           }
         }
       }
@@ -18,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7c839808b063e2ca",
+    "id": "0f29a6035214fcaa",
     "type": "split",
     "children": [
       {
-        "id": "8ccd4b03e68d91d2",
+        "id": "88d2b0994ae9004f",
         "type": "tabs",
         "children": [
           {
-            "id": "117078771c384c66",
+            "id": "95892f70669dc8c9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "ef4ffcf92c1c6dd0",
+            "id": "5c2a8bdf534f7219",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "score function",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -52,23 +52,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216
+    "width": 300
   },
   "right": {
-    "id": "93f85f7f755f7ace",
+    "id": "e24ff6326db168bf",
     "type": "split",
     "children": [
       {
-        "id": "596194e4e98378b9",
+        "id": "dae57364643cb318",
         "type": "tabs",
         "children": [
           {
-            "id": "18d386d02df13a9c",
+            "id": "625060f3c6aec439",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Statistics & Probabilities/Marginal, Joint, and Conditional Probabilities.md",
+                "file": "Generic DL/Basic blocks/Gumbel-Softmax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fe735b39ef9161d8",
+  "active": "a28d4ff0ef4e2d43",
   "lastOpenFiles": [
-    "Mathematics/Statistics & Probabilities/Marginal, Joint, and Conditional Probabilities.md",
-    "Mathematics/Statistics & Probabilities/Independent and Identically Distributed.md",
-    "Mathematics/Statistics & Probabilities/Expected value.md",
-    "Mathematics/Statistics & Probabilities/Conjugate prior.md",
-    "Mathematics/Statistics & Probabilities/Conditional Independence.md",
-    "Blog Posts/05-09-2022.md",
-    "Untitled.md",
-    "Blog Posts/Brief on Reinforcement Learning.md",
+    "Generic DL/Basic blocks/Gumbel-Softmax.md",
+    "Mathematics/Mean Field Theory.md",
+    "Ising model.md",
+    "Cross Spectral Density (CSD).md",
+    "Contraction mapping.md",
+    "Pasted image 20220606170400.png",
+    "README.md",
+    "To-do.md",
     "Untitled 1.md",
-    "Machine Learning/Reinforcement Learning/Key Concepts/Markov Decision Process (MDP).md"
+    "Mathematics/Fixed point.md"
   ]
 }

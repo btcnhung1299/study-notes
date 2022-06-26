@@ -1,1 +1,1 @@
-Approximate the interaction in the multi-agent system by considering the (n-1) agent system as the mean body. That way, the multi-agent system becomes the two body system.
+To simplify the interactions among $n$ agents in a system, we can replace $(n-1)$ agents by their mean body, or so-called **molecular field**, and the system reduces to 2-agent interactions.

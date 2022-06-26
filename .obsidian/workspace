@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Generic DL/Basic blocks/Gumbel-Softmax.md",
-            "mode": "source"
+            "file": "Machine Learning/Reinforcement Learning/Algorithms/Multi-agent RL (MARL)/QTRAN (Q Transformation).md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -52,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 236
   },
   "right": {
     "id": "e24ff6326db168bf",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Generic DL/Basic blocks/Gumbel-Softmax.md",
+                "file": "Machine Learning/Reinforcement Learning/Algorithms/Multi-agent RL (MARL)/QTRAN (Q Transformation).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "a28d4ff0ef4e2d43",
   "lastOpenFiles": [
-    "Generic DL/Basic blocks/Gumbel-Softmax.md",
-    "Mathematics/Mean Field Theory.md",
-    "Ising model.md",
-    "Cross Spectral Density (CSD).md",
-    "Contraction mapping.md",
-    "Pasted image 20220606170400.png",
-    "README.md",
-    "To-do.md",
-    "Untitled 1.md",
-    "Mathematics/Fixed point.md"
+    "Machine Learning/Reinforcement Learning/Algorithms/Multi-agent RL (MARL)/QTRAN (Q Transformation).md",
+    "Machine Learning/Reinforcement Learning/Algorithms/Multi-agent RL (MARL)/QPLEX (Q duPlex).md",
+    "Machine Learning/Reinforcement Learning/Algorithms/Multi-agent RL (MARL)/QMIX (Q Mixing).md",
+    "Machine Learning/Reinforcement Learning/resources/QTRAN.png",
+    "Machine Learning/Reinforcement Learning/resources/QMIX.PNG",
+    "Templates/Paper.md",
+    "Machine Learning/Reinforcement Learning/Model-Free/Epsilon-greedy Policy Improvement.md",
+    "Machine Learning/Reinforcement Learning/Algorithms/Multi-agent RL (MARL)/COMA (Counterfactual Multi-agent).md",
+    "Machine Learning/Reinforcement Learning/Key Concepts/TD-error.md",
+    "Mathematics/Mean Field Theory.md"
   ]
 }

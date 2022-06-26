@@ -1,4 +1,3 @@
-
 # Abstract
 COMA employs [[Actor-Critic]] approach, in which critic is centralised and actor is decentralised. To attribute contributions to agents, formally known as credit assignment problem, COMA uses counterfactual baseline so that the decentralised actor can follow the policy gradient whose magnitude decided by its contribution to overall reward.
 

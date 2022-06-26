@@ -27,3 +27,6 @@ where ![{\widehat {\rho }}](https://wikimedia.org/api/rest_v1/media/math/render/
 Fast Fourier Transform
 Euler’s formula: $e^{it}$
 
+
+- Conjugate gradient algorithms
+- 

@@ -1,3 +1,0 @@
-A Nash equilibrium is a point (i.e. joint action vectors of $n$ agents in the game) in which each single-agent action is best response to $n-1$ other players. Intuitively, point that is not Nash equilibrium will have unsettling property: that is, there exists an agent whose its action can be taken differently in order to improve the current profit of the joint. In other words, suppose all agent strategies are stated publicly, Nash equilibrium will result in no agent making a change in their strategies.
-
-Nash equilibrium gives rise to the creation of [[Prisoner's Dilemma]].

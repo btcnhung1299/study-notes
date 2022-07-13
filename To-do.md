@@ -29,4 +29,6 @@ Euler’s formula: $e^{it}$
 
 
 - Conjugate gradient algorithms
-- 
+
+
+- Shapley value

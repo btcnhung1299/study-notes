@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "f93a24071287b576",
+    "id": "faa8e899bd77b010",
     "type": "split",
     "children": [
       {
-        "id": "a28d4ff0ef4e2d43",
+        "id": "f28ed8b44f05131b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Machine Learning/Reinforcement Learning/Algorithms/Multi-agent RL (MARL)/QTRAN (Q Transformation).md",
+            "file": "Machine Learning/Collaborative ML/Collaborative ML.md",
             "mode": "source",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "0f29a6035214fcaa",
+    "id": "fb5a66002d0ada06",
     "type": "split",
     "children": [
       {
-        "id": "88d2b0994ae9004f",
+        "id": "f8c1e65915313be9",
         "type": "tabs",
         "children": [
           {
-            "id": "95892f70669dc8c9",
+            "id": "9d4d684777ac2ef5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "5c2a8bdf534f7219",
+            "id": "5328eeedc6e05315",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -53,23 +53,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236
+    "width": 300
   },
   "right": {
-    "id": "e24ff6326db168bf",
+    "id": "2371aca64ea0d3be",
     "type": "split",
     "children": [
       {
-        "id": "dae57364643cb318",
+        "id": "6ecce966ec573559",
         "type": "tabs",
         "children": [
           {
-            "id": "625060f3c6aec439",
+            "id": "602105543353ddba",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Reinforcement Learning/Algorithms/Multi-agent RL (MARL)/QTRAN (Q Transformation).md",
+                "file": "Machine Learning/Collaborative ML/Collaborative ML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a28d4ff0ef4e2d43",
+  "active": "f28ed8b44f05131b",
   "lastOpenFiles": [
-    "Machine Learning/Reinforcement Learning/Algorithms/Multi-agent RL (MARL)/QTRAN (Q Transformation).md",
-    "Machine Learning/Reinforcement Learning/Algorithms/Multi-agent RL (MARL)/QPLEX (Q duPlex).md",
-    "Machine Learning/Reinforcement Learning/Algorithms/Multi-agent RL (MARL)/QMIX (Q Mixing).md",
-    "Machine Learning/Reinforcement Learning/resources/QTRAN.png",
-    "Machine Learning/Reinforcement Learning/resources/QMIX.PNG",
-    "Templates/Paper.md",
-    "Machine Learning/Reinforcement Learning/Model-Free/Epsilon-greedy Policy Improvement.md",
-    "Machine Learning/Reinforcement Learning/Algorithms/Multi-agent RL (MARL)/COMA (Counterfactual Multi-agent).md",
-    "Machine Learning/Reinforcement Learning/Key Concepts/TD-error.md",
-    "Mathematics/Mean Field Theory.md"
+    "Machine Learning/Collaborative ML/Collaborative ML.md",
+    "Mathematics/Game Theory/Cooperative game theory (CGT).md",
+    "Machine Learning/Reinforcement Learning/resources/COMA.png",
+    "Mathematics/Game Theory/Shapley value.md",
+    "Mathematics/Game Theory/Nash equilibrium.md",
+    "Mathematics/Game Theory/Cooperative game.md",
+    "Machine Learning/Collaborative ML/Federated Learning/Ideas.md",
+    "README.md",
+    "dory.gif",
+    "Contraction mapping.md"
   ]
 }

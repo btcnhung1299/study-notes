@@ -1,5 +1,5 @@
 # Abstract
-COMA employs [[Actor-Critic]] approach, in which critic is centralised and actor is decentralised. To attribute contributions to agents, formally known as credit assignment problem, COMA uses counterfactual baseline so that the decentralised actor can follow the policy gradient whose magnitude decided by its contribution to overall reward.
+COMA employs [[Actor-Critic]] approach, in which critic is centralised and actor is decentralised. To attribute contributions to agents, formally known as credit assignment problem, COMA uses counterfactual baseline so that the decentralised actor can follow the policy gradient whose magnitude decided by its contribution to overall rewards.
 
 # Description
 ## Components
@@ -12,13 +12,13 @@ COMA employs [[Actor-Critic]] approach, in which critic is centralised and actor
 	where $A_a$ is advantage function of agent $a$.
 	Then, it chooses the next action $u_a^t$, which is sent to the centralised critic along with actions from other agents.
 2. The centralised critic then updates its parameters and produce next advantage function $A_a$ for each agent.
-![[Pasted image 20220606170400.png]]
+![[COMA.png]]
 
 ## Novelty
-1. To use actor-critic method, one naive approach is to let each agent actor follows the policy gradient based on the [[TD-error]] from the centralised critic. However, this approach fails to pay credit to different agents’ current actions, which is important in multi-agent settings, resulted in noisy signals during gradient updates. Therefore, the authors want to imply agent contributions from counterfactual baselines. The main idea is to let each agent learned from the so-called **shaped reward** $D_a = r(s, \mathbf{u}) - r(s, (\mathbf{u}^{-a}, c^a))$ where $c^a$ is the default action. Intuitively, we want to know if an agent instead acts randomly, how much reward we end up with.
+1. To use actor-critic method, one naive approach is to let each agent actor follows the policy gradient based on the [[TD-error]] from the centralised critic. However, this approach fails to pay credit to different agents’ current actions, which is important in multi-agent settings, resulted in noisy signals during gradient updates. Therefore, the authors want to derive agent contributions from counterfactual baselines. The main idea is to let each agent learned from the so-called **shaped reward** $D_a = r(s, \mathbf{u}) - r(s, (\mathbf{u}^{-a}, c^a))$ where $c^a$ is the default action. Intuitively, we want to know if an agent instead acts randomly, how much reward we end up with.
 2. Simulating the idea of default actions require significant resources. However, the authors mathematically show that the centralised critic can be used to implement the difference rewards that doesn’t exhause resources. Specifically, the advantage function is defined by
    $$A_t = ...$$
-3. To further improve its practicibility for critic in case it is a DNN, the authors design critic so that it can output advantage function of all agents in one forward pass.
+3. To further improve its practicibility for critic when huge parameters involved (e.g. DNN), the authors design the critic that can output the advantage function of all agents in one forward pass.
 
 ## Experimental settings
 

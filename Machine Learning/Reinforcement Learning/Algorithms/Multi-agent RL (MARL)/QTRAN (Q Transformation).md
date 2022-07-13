@@ -1,10 +1,13 @@
+1. [[#Components|Components]]
+1. [[#Flow|Flow]]
+1. [[#Novelty|Novelty]]
+1. [[#Experimental settings|Experimental settings]]
+
 
 # Abstract
-
 QTRAN is a multi-agent reinforcement learning algorithm that employs centralised learning with decentralised execution. QTRAN improves [[QMIX (Q Mixing)]]/[[VDN (Value Decomposition Network)]] by allowing arbitrary factorisation instead of enforced with monotocity/additivity constraints.
 
 # Description
-
 ### Components
 1.  Local action-value network $Q_i(\tau_i, u_i)$ at each agent $i$
 2. Joint action-value network $Q_{jt}(\boldsymbol{\tau}, \boldsymbol{u})$ (where $jt$ short for *joint*)
@@ -24,7 +27,7 @@ $$Q^\prime_{jt}(\boldsymbol{\tau}, \boldsymbol{u}) - Q_{jt}(\boldsymbol{\tau}, \
 0 & \mathbf{u} = \mathbf{\bar{u}} \\
 \geq 0 & \mathbf{u} \ne \mathbf{\bar{u}} 
 \end{cases} \tag{1}$$
-	This condition is enforced in optimisation with three terms
+This condition is enforced in optimisation with three terms
 $$L_{td} + \lambda_{opt} L_{opt} + \lambda_{nopt} L_{nopt}$$
 	where
 	- $L_{td} = \text{MSE}(Q_{jt}, y)$: optimise our approximation of joint action-value function with [[Mean Square Error (MSE)]]. See [[VDN (Value Decomposition Network)]] or [[QMIX (Q Mixing)]].
@@ -37,14 +40,10 @@ $$L_{td} + \lambda_{opt} L_{opt} + \lambda_{nopt} L_{nopt}$$
 - In the proposed conditions, the authors use joint state-values $V_{jt}$ to account for the discrepency between non-transformed $Q_{jt}$ and transformed $Q^\prime_{jt}$. On the other hand, $V_{jt}$ includes information of the global state that is unavailable in local observations.
 
 ### Experimental settings
+The algorithm is evaluated on 3 settings:
+- Demonstrations on simple Matrix Game
+- Multi-domain Guaussian Squeeze: non-monotonic resource allocation problem
+- Modified predator-prey: rewards counted only if multiple agents catch, i.e. having the preys within agent's observation, a prey simultenously
 
-
-
-“the joint action-value network shares the parameters  
-at the lower layers of individual networks, where the joint  
-action-value network combines hidden features with summa-  
-tion Pi hQ,i(τi, ui) of hi(τi, ui) = [hQ,i(τi, ui), hV,i(τi)]  
-from individual networks. This parameter sharing is used to  
-enable scalable training with good sample efficiency at the  
-expense of expressive power.” (Son et al., 2019, p. 4)
-
+# Comments
+It seems that QTRAN is not as flexible as [[QMIX (Q Mixing)]]. Specifically, when tested on StarCraftII challenge, QTRAN converges much slowly than the another on multiple maps (see evaluations in [[QPLEX (Q duPlex)]]).

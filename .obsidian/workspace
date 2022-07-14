@@ -89,15 +89,15 @@
   },
   "active": "f28ed8b44f05131b",
   "lastOpenFiles": [
+    "Generic DL/Distance Function/Maximum Mean Discrepancy (MMD).md",
     "Machine Learning/Collaborative ML/Collaborative ML.md",
     "Mathematics/Game Theory/Cooperative game theory (CGT).md",
-    "Machine Learning/Reinforcement Learning/resources/COMA.png",
     "Mathematics/Game Theory/Shapley value.md",
+    "Mathematics/Game Theory/Multi-armed Bandit.md",
+    "Mathematics/Game Theory/Prisoner's Dilemma.md",
+    "Mathematics/Gini index.md",
+    "Machine Learning/Reinforcement Learning/resources/COMA.png",
     "Mathematics/Game Theory/Nash equilibrium.md",
-    "Mathematics/Game Theory/Cooperative game.md",
-    "Machine Learning/Collaborative ML/Federated Learning/Ideas.md",
-    "README.md",
-    "dory.gif",
-    "Contraction mapping.md"
+    "Mathematics/Game Theory/Cooperative game.md"
   ]
 }

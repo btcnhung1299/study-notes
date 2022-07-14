@@ -1,0 +1,5 @@
+In words, one-armed bandit is a single-handle (slot) machine that try to "steal" money from lose gamer. The $N$-armed bandit (or multi-armed bandit) refers to the problem in which a player must decide which machine to play, how many times of playing and in which oder. In general, multi-armed bandit is a scheduling problem in which we have to allocate resources to multiple choices such that it maximises our gain.
+
+It is complex because there exists different reward distribution at each machine and our objective is to maximises the sum of rewards earned through a sequence of playing.
+
+The problem is popular for analysing the trade-off between exploitation and exploration. Specifically, an agent tries to learn about the unknown distribution through exploration while attempting to maximise its reward by exploitation.

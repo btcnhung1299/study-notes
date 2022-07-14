@@ -4,3 +4,7 @@ $$\varphi_i(v) = \frac{1}{n!} \sum_{C \in N \setminus \{i\}}|C|!(n - |C| - 1)![v
 Equivalently,
 $$\varphi_i(v) = \frac{1}{n} \sum_{C \in N \setminus \{i\}}\frac{v(C \cup \{i\}) - v(C)}{n - 1 \choose |C|}$$
 where $n - 1 \choose |C|$ is number of coaliations excluding $i$ of this size.
+
+
+### Comments
+Shapley value is widely regarded as a principled notion of fairness, mostly due to its desired properties: symmetry and null player.

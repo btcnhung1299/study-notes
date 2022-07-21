@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Machine Learning/Collaborative ML/Collaborative ML.md",
+            "file": "Machine Learning/Reinforcement Learning/Algorithms/Single-agent RL/Rainbow.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Collaborative ML/Collaborative ML.md",
+                "file": "Machine Learning/Reinforcement Learning/Algorithms/Single-agent RL/Rainbow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "f28ed8b44f05131b",
   "lastOpenFiles": [
-    "Generic DL/Distance Function/Maximum Mean Discrepancy (MMD).md",
-    "Machine Learning/Collaborative ML/Collaborative ML.md",
-    "Mathematics/Game Theory/Cooperative game theory (CGT).md",
-    "Mathematics/Game Theory/Shapley value.md",
-    "Mathematics/Game Theory/Multi-armed Bandit.md",
-    "Mathematics/Game Theory/Prisoner's Dilemma.md",
-    "Mathematics/Gini index.md",
-    "Machine Learning/Reinforcement Learning/resources/COMA.png",
-    "Mathematics/Game Theory/Nash equilibrium.md",
-    "Mathematics/Game Theory/Cooperative game.md"
+    "Mathematics/Fixed (critical; equilibrium) point.md",
+    "Inverse CDF.md",
+    "Infimum (greatest lower bound), Supremum (least upper bound).md",
+    "Norm.md",
+    "Machine Learning/Reinforcement Learning/Model-Free/eligibility traces.md",
+    "Machine Learning/Reinforcement Learning/Algorithms/Single-agent RL/Dueling Network.md",
+    "Machine Learning/Reinforcement Learning/Algorithms/Single-agent RL/Prioritised experience replay.md",
+    "Machine Learning/Reinforcement Learning/Algorithms/Single-agent RL/Double DQN.md",
+    "Machine Learning/Reinforcement Learning/Algorithms/Single-agent RL/DDPG (Deep Deterministic Policy Gradient).md",
+    "Machine Learning/Reinforcement Learning/Algorithms/Single-agent RL/DFAC (Distributional Factorization).md"
   ]
 }

@@ -2,5 +2,10 @@ A cooperative game regards to the collaboration between coalition. At the beginn
 
 The interations among parties are analysed in the [[Cooperative game theory (CGT)]].
 
+A cooperative game is usually described by
+- set of players
+- action sets
+- payoffs
+
 ### Extension
 Based on the original version, [ABC et. al.] proposes constraints for incentives in collaboration: Shapley fairness, stability, individual rationality, and group welfare

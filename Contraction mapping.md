@@ -1,1 +1,2 @@
-—cń
+A contraction mapping on [[Metric space]] $(M, d)$ is a function that map betwen metric spaces $f: M \rightarrow M$ such that there exists a real value $k$ ($0 \leq k < 1$) that satisfies 
+$$d(f(x), f(y)) \leq k d(x, y), \forall x, y \in M$$

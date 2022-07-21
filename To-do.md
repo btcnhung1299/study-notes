@@ -5,12 +5,9 @@
 	- Gaus-Seidel method
 	- Other over-relaxation method such as conjugate gradients, generalised minimal residual, biconjugate gradients
 - Variational Inference
-- Shapley value
 - K-dimensional simplex
 - Entropy regularation 
 - ELBO
-
-Multi-armed bandits problemw
 
 Paper: using federated learning to communicate aming agents in MARL
 
@@ -29,6 +26,4 @@ Euler’s formula: $e^{it}$
 
 
 - Conjugate gradient algorithms
-
-
-- Shapley value
+- Sparsifying gradient trick

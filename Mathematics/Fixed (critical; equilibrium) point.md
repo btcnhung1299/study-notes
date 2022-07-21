@@ -1,0 +1,1 @@
+$x$ is called a fixed point of $f$ if and only if $f(x) = x$. In other words, a fixed point is a point that is not changed despite applied function/mapping.

@@ -1,0 +1,1 @@
+Contrastive learning is an unsupervised ML paradigm in which two unsupervised samples are used and the model will decide which one is similar, which is different.

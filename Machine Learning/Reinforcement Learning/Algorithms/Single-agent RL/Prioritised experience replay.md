@@ -1,0 +1,1 @@
+In prioritised experience replay, the authors give high sampling scores for those with high absolute [[TD-error]] that is last encountered. On the other hand, it also gives new transitions highest priority.

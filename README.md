@@ -3,3 +3,5 @@
 Inspired heavily by [Andy's working notes](https://notes.andymatuschak.org/).
 
 ![](./dory.gif)
+
+"follow your curiosity".

@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Machine Learning/Reinforcement Learning/Algorithms/Single-agent RL/Rainbow.md",
+            "file": "Mathematics/Mean Field Theory.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "bbbc9fcf029c4ada",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "To-do.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "measure space",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Reinforcement Learning/Algorithms/Single-agent RL/Rainbow.md",
+                "file": "Mathematics/Mean Field Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +101,15 @@
   },
   "active": "f28ed8b44f05131b",
   "lastOpenFiles": [
-    "Mathematics/Fixed (critical; equilibrium) point.md",
-    "Inverse CDF.md",
-    "Infimum (greatest lower bound), Supremum (least upper bound).md",
-    "Norm.md",
-    "Machine Learning/Reinforcement Learning/Model-Free/eligibility traces.md",
-    "Machine Learning/Reinforcement Learning/Algorithms/Single-agent RL/Dueling Network.md",
-    "Machine Learning/Reinforcement Learning/Algorithms/Single-agent RL/Prioritised experience replay.md",
-    "Machine Learning/Reinforcement Learning/Algorithms/Single-agent RL/Double DQN.md",
-    "Machine Learning/Reinforcement Learning/Algorithms/Single-agent RL/DDPG (Deep Deterministic Policy Gradient).md",
-    "Machine Learning/Reinforcement Learning/Algorithms/Single-agent RL/DFAC (Distributional Factorization).md"
+    "Mathematics/Abstract Algebra/Sigma-algebra.md",
+    "To-do.md",
+    "README.md",
+    "Closure.md",
+    "Mathematics/Abstract Algebra/Measure space.md",
+    "Mathematics/Abstract Algebra/Measure.md",
+    "Machine Learning/Reinforcement Learning/Key Concepts/Bellman equation.md",
+    "Mathematics/Statistics & Probabilities/Distribution/Cauchy distribution.md",
+    "Mathematics/Calculus/Improper integral.md",
+    "Machine Learning/Reinforcement Learning/Key Concepts/value function.md"
   ]
 }

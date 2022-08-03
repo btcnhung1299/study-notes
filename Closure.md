@@ -1,0 +1,1 @@
+A subset $A$ of a set $X$ is closed under an operation $(\cdot)$ if  $a_i \cdot a_j \in A, \forall a_i, a_j \in A$. In other words, taking operation between any two members of the subset yield the a member of that subset.

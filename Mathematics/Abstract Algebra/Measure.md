@@ -1,0 +1,1 @@
+Measure of a set $X$ is a function, often denoted as $\mu$, that assigns **non-negative real value** to subsets of $X$. This value can be intepreted as size/volume of that subset. It is used to define a [[Measure space]].
